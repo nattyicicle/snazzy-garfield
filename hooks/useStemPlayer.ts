@@ -8,7 +8,11 @@ type GainMap = Record<string, GainNode>;
 type SourceMap = Record<string, AudioBufferSourceNode>;
 type ErrorMap = Record<string, string>;
 
-const audioBaseUrl = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/+$/, "");
+const defaultAudioBaseUrl =
+  "https://pub-6c46ccb0377243cd898f83c8198c5e6f.r2.dev";
+const audioBaseUrl = (
+  process.env.NEXT_PUBLIC_AUDIO_BASE_URL || defaultAudioBaseUrl
+).replace(/\/+$/, "");
 
 function resolveStemFile(file: string) {
   if (!audioBaseUrl || /^(https?:|data:|blob:)/i.test(file)) {

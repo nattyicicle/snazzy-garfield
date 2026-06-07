@@ -57,7 +57,7 @@ export function StemPlayer({ song }: StemPlayerProps) {
               : "No audio files loaded yet"}
           </h2>
           <p className="mt-2 text-sm text-stone-200">
-            Add the MP3 files listed in{" "}
+            Add the audio files listed in{" "}
             <span className="font-mono text-xs">
               public/song-library/songs.json
             </span>{" "}
