@@ -5,7 +5,38 @@ type SongCardProps = {
   song: Song;
 };
 
+function prettifyPathPart(value: string | undefined) {
+  if (!value) {
+    return null;
+  }
+
+  return decodeURIComponent(value)
+    .replace(/^"|"$/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function getSongMeta(song: Song) {
+  const pathParts = song.stems[0]?.file.split("/").filter(Boolean) ?? [];
+  const libraryIndex = pathParts.indexOf("song-library");
+  const status = pathParts[libraryIndex + 1];
+  const album = prettifyPathPart(pathParts[libraryIndex + 2]);
+
+  return {
+    album,
+    status:
+      status === "released"
+        ? "Released"
+        : status === "unreleased"
+          ? "Unreleased"
+          : null
+  };
+}
+
 export function SongCard({ song }: SongCardProps) {
+  const meta = getSongMeta(song);
+
   return (
     <Link
       href={`/songs/${song.id}`}
@@ -16,6 +47,12 @@ export function SongCard({ song }: SongCardProps) {
           <h2 className="text-xl font-semibold text-white">{song.title}</h2>
           {song.artist ? (
             <p className="mt-1 text-sm text-stone-300">{song.artist}</p>
+          ) : null}
+          {meta.album ? (
+            <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-stone-500">
+              {meta.status ? `${meta.status} / ` : ""}
+              {meta.album}
+            </p>
           ) : null}
         </div>
         <span className="rounded border border-amberline/40 px-2 py-1 text-xs font-semibold uppercase tracking-wide text-amberline">
