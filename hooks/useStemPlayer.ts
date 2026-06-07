@@ -6,6 +6,9 @@ import type { PracticePreset, Song, StemState } from "@/lib/types";
 type AudioElementMap = Record<string, HTMLAudioElement>;
 type ErrorMap = Record<string, string>;
 
+const hardSyncThreshold = 0.08;
+const softSyncThreshold = 0.025;
+const syncPlaybackRate = 0.04;
 const defaultAudioBaseUrl =
   "https://pub-6c46ccb0377243cd898f83c8198c5e6f.r2.dev";
 const audioBaseUrl = (
@@ -55,6 +58,7 @@ function getAudioErrorMessage(audio: HTMLAudioElement, src: string) {
 
 export function useStemPlayer(song: Song) {
   const audioElementsRef = useRef<AudioElementMap>({});
+  const primaryStemIdRef = useRef<string | null>(null);
   const pausedAtRef = useRef(0);
   const animationFrameRef = useRef<number | null>(null);
   const isPlayingRef = useRef(false);
@@ -126,13 +130,36 @@ export function useStemPlayer(song: Song) {
       return;
     }
 
+    const audioEntries = Object.entries(audioElementsRef.current);
     const primaryAudio =
-      Object.values(audioElementsRef.current).find((audio) => !audio.paused) ??
-      Object.values(audioElementsRef.current)[0];
+      (primaryStemIdRef.current
+        ? audioElementsRef.current[primaryStemIdRef.current]
+        : null) ??
+      audioEntries.find(([, audio]) => !audio.paused)?.[1] ??
+      audioEntries[0]?.[1];
     const nextTime = clampTime(
       primaryAudio?.currentTime ?? pausedAtRef.current,
       durationRef.current
     );
+
+    if (primaryAudio) {
+      for (const [, audio] of audioEntries) {
+        if (audio === primaryAudio || audio.paused || audio.readyState < 2) {
+          continue;
+        }
+
+        const drift = audio.currentTime - nextTime;
+
+        if (Math.abs(drift) > hardSyncThreshold) {
+          audio.currentTime = nextTime;
+          audio.playbackRate = 1;
+        } else if (Math.abs(drift) > softSyncThreshold) {
+          audio.playbackRate = drift > 0 ? 1 - syncPlaybackRate : 1 + syncPlaybackRate;
+        } else {
+          audio.playbackRate = 1;
+        }
+      }
+    }
 
     setCurrentTime(nextTime);
 
@@ -175,7 +202,19 @@ export function useStemPlayer(song: Song) {
     updateAudioElements();
 
     try {
-      await Promise.all(audioElements.map((audio) => audio.play()));
+      await Promise.allSettled(audioElements.map((audio) => audio.play()));
+      const primaryAudio =
+        (primaryStemIdRef.current
+          ? audioElementsRef.current[primaryStemIdRef.current]
+          : null) ?? audioElements[0];
+      const startTime = primaryAudio?.currentTime ?? offset;
+
+      for (const audio of audioElements) {
+        if (audio !== primaryAudio && Math.abs(audio.currentTime - startTime) > 0.02) {
+          audio.currentTime = startTime;
+        }
+      }
+
       pausedAtRef.current = offset;
       isPlayingRef.current = true;
       setIsPlaying(true);
@@ -212,6 +251,9 @@ export function useStemPlayer(song: Song) {
     setCurrentTime(0);
     pauseElements();
     setElementTimes(0);
+    for (const audio of Object.values(audioElementsRef.current)) {
+      audio.playbackRate = 1;
+    }
     stopAnimation();
   }, [pauseElements, setElementTimes, stopAnimation]);
 
@@ -355,6 +397,7 @@ export function useStemPlayer(song: Song) {
     setStemStates(nextStates);
     stemStatesRef.current = nextStates;
     audioElementsRef.current = {};
+    primaryStemIdRef.current = null;
     durationRef.current = 0;
     pausedAtRef.current = 0;
     setDuration(0);
@@ -426,6 +469,9 @@ export function useStemPlayer(song: Song) {
       );
 
       audioElementsRef.current = nextElements;
+      primaryStemIdRef.current = song.stems.find((stem) =>
+        nextLoadedIds.has(stem.id)
+      )?.id ?? null;
       durationRef.current = nextDuration;
       setDuration(nextDuration);
       setLoadedStemIds(nextLoadedIds);
@@ -438,6 +484,7 @@ export function useStemPlayer(song: Song) {
       cancelled = true;
       for (const audio of Object.values(audioElementsRef.current)) {
         audio.pause();
+        audio.playbackRate = 1;
         audio.removeAttribute("src");
         audio.load();
       }
