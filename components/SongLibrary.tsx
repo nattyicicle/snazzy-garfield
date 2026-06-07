@@ -1,25 +1,23 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
-import { SongCard } from "@/components/SongCard";
+import { AlbumArtwork } from "@/components/AlbumArtwork";
+import { AlbumCard } from "@/components/AlbumCard";
+import {
+  getAlbums,
+  getSongPlacement,
+  sectionLabels,
+  sectionOrder
+} from "@/lib/albums";
+import type { Album, ReleaseSection } from "@/lib/albums";
 import type { Song, StemType } from "@/lib/types";
 
 type SongLibraryProps = {
   songs: Song[];
 };
 
-type LibrarySection = "released" | "unreleased" | "other";
-
-type SongGroup = {
-  album: string;
-  songs: Song[];
-};
-
-type LibraryGroup = {
-  section: LibrarySection;
-  groups: SongGroup[];
-  count: number;
-};
+type ViewMode = "expanded" | "condensed";
 
 const stemFilters: Array<{ label: string; value: "all" | StemType }> = [
   { label: "All", value: "all" },
@@ -30,102 +28,68 @@ const stemFilters: Array<{ label: string; value: "all" | StemType }> = [
   { label: "Keys", value: "keys" }
 ];
 
-const sectionLabels: Record<LibrarySection, string> = {
-  released: "Released",
-  unreleased: "Unreleased",
-  other: "Other"
-};
+function filterSongs(songs: Song[], query: string, stemType: "all" | StemType) {
+  const normalizedQuery = query.trim().toLowerCase();
 
-const sectionOrder: LibrarySection[] = ["released", "unreleased", "other"];
+  return songs.filter((song) => {
+    const placement = getSongPlacement(song);
+    const matchesQuery =
+      normalizedQuery.length === 0 ||
+      song.title.toLowerCase().includes(normalizedQuery) ||
+      song.artist?.toLowerCase().includes(normalizedQuery) ||
+      placement.title.toLowerCase().includes(normalizedQuery);
+    const matchesStem =
+      stemType === "all" || song.stems.some((stem) => stem.type === stemType);
 
-function prettifyPathPart(value: string | undefined) {
-  if (!value) {
-    return "Singles";
-  }
-
-  return decodeURIComponent(value)
-    .replace(/^"|"$/g, "")
-    .replace(/\s+/g, " ")
-    .trim()
-    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+    return matchesQuery && matchesStem;
+  });
 }
 
-function getSongPlacement(song: Song) {
-  const pathParts = song.stems[0]?.file.split("/").filter(Boolean) ?? [];
-  const libraryIndex = pathParts.indexOf("song-library");
-  const section = pathParts[libraryIndex + 1] as LibrarySection | undefined;
-  const album = prettifyPathPart(pathParts[libraryIndex + 2]);
+function groupAlbumsBySection(albums: Album[]) {
+  return sectionOrder
+    .map((section) => {
+      const sectionAlbums = albums.filter((album) => album.section === section);
 
-  if (section === "released" || section === "unreleased") {
-    return { section, album };
-  }
+      if (sectionAlbums.length === 0) {
+        return null;
+      }
 
-  return { section: "other" as const, album };
+      return {
+        section,
+        albums: sectionAlbums,
+        count: sectionAlbums.reduce(
+          (total, album) => total + album.songs.length,
+          0
+        )
+      };
+    })
+    .filter(
+      (
+        group
+      ): group is {
+        section: ReleaseSection;
+        albums: Album[];
+        count: number;
+      } => group !== null
+    );
 }
 
 export function SongLibrary({ songs }: SongLibraryProps) {
   const [query, setQuery] = useState("");
   const [stemType, setStemType] = useState<"all" | StemType>("all");
+  const [viewMode, setViewMode] = useState<ViewMode>("expanded");
 
-  const filteredSongs = useMemo(() => {
-    const normalizedQuery = query.trim().toLowerCase();
-
-    return songs.filter((song) => {
-      const matchesQuery =
-        normalizedQuery.length === 0 ||
-        song.title.toLowerCase().includes(normalizedQuery) ||
-        song.artist?.toLowerCase().includes(normalizedQuery);
-      const matchesStem =
-        stemType === "all" || song.stems.some((stem) => stem.type === stemType);
-
-      return matchesQuery && matchesStem;
-    });
-  }, [query, songs, stemType]);
-
-  const groupedSongs = useMemo<LibraryGroup[]>(() => {
-    const sections = new Map<LibrarySection, Map<string, Song[]>>();
-
-    for (const song of filteredSongs) {
-      const { section, album } = getSongPlacement(song);
-      const sectionGroups = sections.get(section) ?? new Map<string, Song[]>();
-      const albumSongs = sectionGroups.get(album) ?? [];
-
-      albumSongs.push(song);
-      sectionGroups.set(album, albumSongs);
-      sections.set(section, sectionGroups);
-    }
-
-    return sectionOrder
-      .map((section) => {
-        const groups = sections.get(section);
-
-        if (!groups) {
-          return null;
-        }
-
-        const sortedGroups = [...groups.entries()]
-          .map(([album, albumSongs]) => ({
-            album,
-            songs: albumSongs.sort((a, b) => a.title.localeCompare(b.title))
-          }))
-          .sort((a, b) => a.album.localeCompare(b.album));
-
-        return {
-          section,
-          groups: sortedGroups,
-          count: sortedGroups.reduce(
-            (total, group) => total + group.songs.length,
-            0
-          )
-        };
-      })
-      .filter((group): group is LibraryGroup => group !== null);
-  }, [filteredSongs]);
+  const filteredSongs = useMemo(
+    () => filterSongs(songs, query, stemType),
+    [query, songs, stemType]
+  );
+  const albums = useMemo(() => getAlbums(filteredSongs), [filteredSongs]);
+  const groupedAlbums = useMemo(() => groupAlbumsBySection(albums), [albums]);
 
   return (
     <section className="flex flex-col gap-5">
       <div className="rounded-lg border border-white/10 bg-panel p-4">
-        <div className="grid gap-3 md:grid-cols-[1fr_auto] md:items-end">
+        <div className="grid gap-4 xl:grid-cols-[1fr_auto_auto] xl:items-end">
           <label className="block">
             <span className="text-xs font-semibold uppercase tracking-wide text-stone-500">
               Search
@@ -134,10 +98,11 @@ export function SongLibrary({ songs }: SongLibraryProps) {
               type="search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Find a song"
+              placeholder="Find a song or album"
               className="mt-2 w-full rounded border border-white/10 bg-ink px-3 py-3 text-white outline-none placeholder:text-stone-500 focus:border-amberline"
             />
           </label>
+
           <div>
             <p className="text-xs font-semibold uppercase tracking-wide text-stone-500">
               Stem
@@ -159,14 +124,38 @@ export function SongLibrary({ songs }: SongLibraryProps) {
               ))}
             </div>
           </div>
+
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wide text-stone-500">
+              View
+            </p>
+            <div className="mt-2 grid grid-cols-2 rounded border border-white/10 bg-rail p-1">
+              {(["expanded", "condensed"] as const).map((mode) => (
+                <button
+                  key={mode}
+                  type="button"
+                  onClick={() => setViewMode(mode)}
+                  className={`rounded px-3 py-2 text-sm font-semibold capitalize ${
+                    viewMode === mode
+                      ? "bg-amberline text-ink"
+                      : "text-stone-300 hover:text-white"
+                  }`}
+                >
+                  {mode}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
+
         <p className="mt-3 text-sm text-stone-400">
-          {filteredSongs.length} of {songs.length} songs
+          {filteredSongs.length} of {songs.length} songs across {albums.length}{" "}
+          album{albums.length === 1 ? "" : "s"}
         </p>
       </div>
 
       <div className="flex flex-col gap-8">
-        {groupedSongs.map((section) => (
+        {groupedAlbums.map((section) => (
           <section key={section.section} className="flex flex-col gap-4">
             <div className="flex items-end justify-between border-b border-white/10 pb-3">
               <div>
@@ -174,35 +163,74 @@ export function SongLibrary({ songs }: SongLibraryProps) {
                   {sectionLabels[section.section]}
                 </p>
                 <h2 className="mt-1 text-2xl font-semibold text-white">
-                  {section.count} song{section.count === 1 ? "" : "s"}
+                  {section.albums.length} album
+                  {section.albums.length === 1 ? "" : "s"}
                 </h2>
               </div>
+              <span className="text-sm text-stone-500">
+                {section.count} song{section.count === 1 ? "" : "s"}
+              </span>
             </div>
 
-            <div className="flex flex-col gap-5">
-              {section.groups.map((group) => (
-                <section
-                  key={`${section.section}-${group.album}`}
-                  className="flex flex-col gap-3"
-                >
-                  <div className="flex flex-wrap items-baseline justify-between gap-2">
-                    <h3 className="text-lg font-semibold text-stone-100">
-                      {group.album}
-                    </h3>
-                    <span className="text-sm text-stone-500">
-                      {group.songs.length} song
-                      {group.songs.length === 1 ? "" : "s"}
-                    </span>
-                  </div>
+            {viewMode === "expanded" ? (
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {section.albums.map((album) => (
+                  <AlbumCard key={album.id} album={album} />
+                ))}
+              </div>
+            ) : (
+              <div className="flex flex-col gap-4">
+                {section.albums.map((album) => (
+                  <section
+                    key={album.id}
+                    className="overflow-hidden rounded-lg border border-white/10 bg-panel"
+                  >
+                    <Link
+                      href={`/albums/${album.id}`}
+                      className="grid gap-4 border-b border-white/10 p-4 hover:bg-white/[0.03] sm:grid-cols-[88px_1fr_auto] sm:items-center"
+                    >
+                      <div className="aspect-square w-[88px] overflow-hidden rounded bg-black">
+                        <AlbumArtwork
+                          artwork={album.artwork}
+                          title={album.title}
+                        />
+                      </div>
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-wide text-amberline">
+                          {sectionLabels[album.section]}
+                        </p>
+                        <h3 className="mt-1 text-xl font-semibold text-white">
+                          {album.title}
+                        </h3>
+                      </div>
+                      <span className="text-sm font-semibold text-stone-400">
+                        Open album
+                      </span>
+                    </Link>
 
-                  <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                    {group.songs.map((song) => (
-                      <SongCard key={song.id} song={song} />
-                    ))}
-                  </div>
-                </section>
-              ))}
-            </div>
+                    <div className="divide-y divide-white/10">
+                      {album.songs.map((song, index) => (
+                        <Link
+                          key={song.id}
+                          href={`/songs/${song.id}`}
+                          className="grid gap-3 px-4 py-3 text-sm transition hover:bg-white/[0.03] sm:grid-cols-[44px_1fr_auto] sm:items-center"
+                        >
+                          <span className="font-mono text-xs text-stone-500">
+                            {String(index + 1).padStart(2, "0")}
+                          </span>
+                          <span className="font-semibold text-stone-100">
+                            {song.title}
+                          </span>
+                          <span className="text-stone-500">
+                            {song.stems.length} stems
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                  </section>
+                ))}
+              </div>
+            )}
           </section>
         ))}
       </div>

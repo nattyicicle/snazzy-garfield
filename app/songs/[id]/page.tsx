@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { StemPlayer } from "@/components/StemPlayer";
+import { getSongPlacement } from "@/lib/albums";
 import { getSongById, getSongs } from "@/lib/songs";
 
 type SongPageProps = {
@@ -23,13 +24,15 @@ export default async function SongPage({ params }: SongPageProps) {
     notFound();
   }
 
+  const placement = getSongPlacement(song);
+
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-5 py-6 sm:px-8">
       <Link
-        href="/songs"
+        href={`/albums/${placement.albumId}`}
         className="mb-6 w-fit text-sm font-semibold text-stone-300 hover:text-amberline"
       >
-        Back to songs
+        Back to {placement.title}
       </Link>
       <header className="mb-6 flex flex-col gap-4 border-b border-white/10 pb-6 md:flex-row md:items-end md:justify-between">
         <div>
