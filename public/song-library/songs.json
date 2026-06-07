@@ -1,0 +1,5230 @@
+[
+  {
+    "id": "1-or-2",
+    "title": "1 or 2",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/1-or-2/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/1-or-2/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/1-or-2/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/1-or-2/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/1-or-2/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/1-or-2/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/1-or-2/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "11-11",
+    "title": "11-11",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/11-11/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/11-11/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/11-11/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/11-11/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/11-11/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/11-11/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/11-11/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/11-11/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/11-11/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "a-clue-for-you",
+    "title": "A Clue For You",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/mysterai/a-clue-for-you/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/mysterai/a-clue-for-you/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/mysterai/a-clue-for-you/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/mysterai/a-clue-for-you/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/mysterai/a-clue-for-you/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/mysterai/a-clue-for-you/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/mysterai/a-clue-for-you/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/mysterai/a-clue-for-you/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/mysterai/a-clue-for-you/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "a-pretty-little-liar-the-sweater-song",
+    "title": "A Pretty Little Liar (The Sweater Song)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/a-pretty-little-liar-the-sweater-song/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/a-pretty-little-liar-the-sweater-song/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/a-pretty-little-liar-the-sweater-song/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/a-pretty-little-liar-the-sweater-song/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/a-pretty-little-liar-the-sweater-song/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/a-pretty-little-liar-the-sweater-song/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/a-pretty-little-liar-the-sweater-song/6%20Percussion.wav"
+      }
+    ]
+  },
+  {
+    "id": "american-scheme",
+    "title": "American Scheme",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/6%20Percussion.wav"
+      },
+      {
+        "id": "strings",
+        "name": "Strings",
+        "type": "other",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/7%20Strings.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/8%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/the%20dog%20in%20me/american-scheme/9%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "antifa",
+    "title": "Antifa",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/antifa/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/antifa/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/antifa/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/antifa/3%20Bass.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic/antifa/4%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/antifa/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic/antifa/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "antifa-vibes",
+    "title": "Antifa (Vibes)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/antifa-vibes/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/antifa-vibes/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic%20unplugged/antifa-vibes/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic%20unplugged/antifa-vibes/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic%20unplugged/antifa-vibes/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/aitistic%20unplugged/antifa-vibes/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic%20unplugged/antifa-vibes/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic%20unplugged/antifa-vibes/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic%20unplugged/antifa-vibes/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "are-you-attempting-to-dance-the-flamenco-principal-wartz",
+    "title": "Are You Attempting to Dance the Flamenco Principal Wartz?",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/are-you-attempting-to-dance-the-flamenco-principal-wartz/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/are-you-attempting-to-dance-the-flamenco-principal-wartz/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/are-you-attempting-to-dance-the-flamenco-principal-wartz/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/are-you-attempting-to-dance-the-flamenco-principal-wartz/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/are-you-attempting-to-dance-the-flamenco-principal-wartz/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/are-you-attempting-to-dance-the-flamenco-principal-wartz/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/are-you-attempting-to-dance-the-flamenco-principal-wartz/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/are-you-attempting-to-dance-the-flamenco-principal-wartz/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "are-you-going-to-finish-that-croissant",
+    "title": "Are You Going to Finish that Croissant?",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/are-you-going-to-finish-that-croissant/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/are-you-going-to-finish-that-croissant/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/are-you-going-to-finish-that-croissant/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/are-you-going-to-finish-that-croissant/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/are-you-going-to-finish-that-croissant/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/are-you-going-to-finish-that-croissant/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/are-you-going-to-finish-that-croissant/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/are-you-going-to-finish-that-croissant/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "believers",
+    "title": "Believers",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/believers/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/believers/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/believers/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/believers/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/believers/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/villain/believers/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/believers/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/villain/believers/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "betray-us",
+    "title": "Betray Us",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/betray-us/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/betray-us/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/betray-us/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/betray-us/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/betray-us/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/betray-us/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/betray-us/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/betray-us/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "big-brother",
+    "title": "Big Brother",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/big-brother/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/big-brother/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/big-brother/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/big-brother/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/big-brother/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/villain/big-brother/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/villain/big-brother/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/big-brother/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/villain/big-brother/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "bizarre-bazaar",
+    "title": "Bizarre Bazaar",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/bizarre-bazaar/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/bizarre-bazaar/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/bizarre-bazaar/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/bizarre-bazaar/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/bizarre-bazaar/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/the%20dog%20in%20me/bizarre-bazaar/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/the%20dog%20in%20me/bizarre-bazaar/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/bizarre-bazaar/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "blasphem",
+    "title": "BLASPHEM",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/blasphem/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/blasphem/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/fukboi3k/blasphem/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/fukboi3k/blasphem/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/fukboi3k/blasphem/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/fukboi3k/blasphem/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/fukboi3k/blasphem/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/fukboi3k/blasphem/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "blasphemy",
+    "title": "Blasphemy",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/blasphemy/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/blasphemy/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/fukboi3k/blasphemy/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/fukboi3k/blasphemy/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/fukboi3k/blasphemy/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/fukboi3k/blasphemy/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/fukboi3k/blasphemy/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "boobies-in-school",
+    "title": "Boobies in School",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/singles/boobies-in-school/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/singles/boobies-in-school/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/singles/boobies-in-school/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/singles/boobies-in-school/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/singles/boobies-in-school/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/singles/boobies-in-school/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/singles/boobies-in-school/6%20Percussion.wav"
+      },
+      {
+        "id": "strings",
+        "name": "Strings",
+        "type": "other",
+        "file": "/song-library/released/singles/boobies-in-school/7%20Strings.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/singles/boobies-in-school/8%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/singles/boobies-in-school/9%20Other.wav"
+      },
+      {
+        "id": "woodwinds",
+        "name": "Woodwinds",
+        "type": "other",
+        "file": "/song-library/released/singles/boobies-in-school/10%20Woodwinds.wav"
+      }
+    ]
+  },
+  {
+    "id": "boomerang-v1",
+    "title": "Boomerang (v1)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v1/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v1/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v1/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v1/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v1/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v1/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v1/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v1/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v1/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "boomerang-v2",
+    "title": "Boomerang (v2)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v2/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v2/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v2/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v2/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v2/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v2/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/boomerang-v2/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "brother",
+    "title": "Brother",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/brother/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/brother/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/brother/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/brother/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/brother/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/the%20dog%20in%20me/brother/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/the%20dog%20in%20me/brother/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/brother/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/the%20dog%20in%20me/brother/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "bullet-train",
+    "title": "Bullet Train",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "bullet-train-k-pop-1-06x",
+    "title": "Bullet Train [K-Pop] (1.06x)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-k-pop-1-06x/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-k-pop-1-06x/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-k-pop-1-06x/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-k-pop-1-06x/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-k-pop-1-06x/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-k-pop-1-06x/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-k-pop-1-06x/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-k-pop-1-06x/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "bullet-train-ska",
+    "title": "Bullet Train [ska)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/6%20Percussion.wav"
+      },
+      {
+        "id": "strings",
+        "name": "Strings",
+        "type": "other",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/7%20Strings.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/8%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/9%20Other.wav"
+      },
+      {
+        "id": "brass",
+        "name": "Brass",
+        "type": "brass",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/10%20Brass.wav"
+      },
+      {
+        "id": "woodwinds",
+        "name": "Woodwinds",
+        "type": "other",
+        "file": "/song-library/unreleased/fukboi3k/bullet-train-ska/11%20Woodwinds.wav"
+      }
+    ]
+  },
+  {
+    "id": "burger-king",
+    "title": "BURGER—KING",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/burger-king/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/burger-king/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/burger-king/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/burger-king/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic/burger-king/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic/burger-king/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/burger-king/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic/burger-king/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "caravan",
+    "title": "Caravan",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/caravan/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/caravan/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/caravan/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/caravan/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/caravan/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/villain/caravan/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/villain/caravan/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/caravan/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "coffee-and-cigarettes",
+    "title": "Coffee & Cigarettes",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/7%20Synth.wav"
+      },
+      {
+        "id": "brass",
+        "name": "Brass",
+        "type": "brass",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/8%20Brass.wav"
+      },
+      {
+        "id": "woodwinds",
+        "name": "Woodwinds",
+        "type": "other",
+        "file": "/song-library/released/the%20dog%20in%20me/coffee-and-cigarettes/9%20Woodwinds.wav"
+      }
+    ]
+  },
+  {
+    "id": "danielle",
+    "title": "Danielle",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/danielle/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/danielle/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/danielle/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/danielle/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/danielle/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/danielle/5%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "dear-djeebus-grunge",
+    "title": "Dear Djeebus [Grunge]",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-grunge/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-grunge/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-grunge/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-grunge/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-grunge/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-grunge/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-grunge/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "dear-djeebus-pop-punk-1-06x",
+    "title": "Dear Djeebus [Pop Punk] (1.06x)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-pop-punk-1-06x/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-pop-punk-1-06x/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-pop-punk-1-06x/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-pop-punk-1-06x/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-pop-punk-1-06x/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-pop-punk-1-06x/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-pop-punk-1-06x/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/dear-djeebus-pop-punk-1-06x/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "decoy-for-a-dognapper",
+    "title": "Decoy For a Dognapper",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/mysterai/decoy-for-a-dognapper/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/mysterai/decoy-for-a-dognapper/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/mysterai/decoy-for-a-dognapper/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/mysterai/decoy-for-a-dognapper/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/mysterai/decoy-for-a-dognapper/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/mysterai/decoy-for-a-dognapper/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/mysterai/decoy-for-a-dognapper/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/mysterai/decoy-for-a-dognapper/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "desert-clay",
+    "title": "Desert Clay",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/desert-clay/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/desert-clay/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/desert-clay/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/desert-clay/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/desert-clay/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/desert-clay/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/desert-clay/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/desert-clay/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "destiny",
+    "title": "Destiny",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/destiny/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/destiny/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/destiny/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/destiny/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/destiny/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/destiny/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/destiny/6%20Other.wav"
+      },
+      {
+        "id": "woodwinds",
+        "name": "Woodwinds",
+        "type": "other",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/destiny/7%20Woodwinds.wav"
+      }
+    ]
+  },
+  {
+    "id": "disguise-the-limit",
+    "title": "Disguise the Limit",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/disguise-the-limit/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/disguise-the-limit/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/disguise-the-limit/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/disguise-the-limit/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic/disguise-the-limit/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/disguise-the-limit/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic/disguise-the-limit/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "disguise-the-limit-vibes",
+    "title": "Disguise the Limit (Vibes)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/disguise-the-limit-vibes/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/disguise-the-limit-vibes/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic%20unplugged/disguise-the-limit-vibes/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic%20unplugged/disguise-the-limit-vibes/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic%20unplugged/disguise-the-limit-vibes/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/aitistic%20unplugged/disguise-the-limit-vibes/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic%20unplugged/disguise-the-limit-vibes/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic%20unplugged/disguise-the-limit-vibes/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic%20unplugged/disguise-the-limit-vibes/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "down-the-rabbit-hole",
+    "title": "Down the Rabbit Hole",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/down-the-rabbit-hole/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/down-the-rabbit-hole/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/down-the-rabbit-hole/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/down-the-rabbit-hole/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/down-the-rabbit-hole/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/down-the-rabbit-hole/5%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "everybody-wants-to-be-a-train",
+    "title": "Everybody Wants to Be a Train",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/everybody-wants-to-be-a-train/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/everybody-wants-to-be-a-train/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/everybody-wants-to-be-a-train/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/everybody-wants-to-be-a-train/3%20Bass.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic/everybody-wants-to-be-a-train/4%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/everybody-wants-to-be-a-train/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic/everybody-wants-to-be-a-train/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "everybody-wants-to-be-a-train-vibe",
+    "title": "Everybody Wants to Be a Train (Vibe)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/everybody-wants-to-be-a-train-vibe/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/everybody-wants-to-be-a-train-vibe/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic%20unplugged/everybody-wants-to-be-a-train-vibe/2%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic%20unplugged/everybody-wants-to-be-a-train-vibe/3%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/aitistic%20unplugged/everybody-wants-to-be-a-train-vibe/4%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic%20unplugged/everybody-wants-to-be-a-train-vibe/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic%20unplugged/everybody-wants-to-be-a-train-vibe/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "everything-is-so-sketch",
+    "title": "Everything is so Sketch",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/everything-is-so-sketch/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/everything-is-so-sketch/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/everything-is-so-sketch/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/everything-is-so-sketch/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/everything-is-so-sketch/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/villain/everything-is-so-sketch/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/villain/everything-is-so-sketch/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/everything-is-so-sketch/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "fake-news",
+    "title": "Fake News",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/fake-news/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/fake-news/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/fake-news/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/fake-news/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/fake-news/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/fake-news/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/fake-news/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/fake-news/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "from-hell",
+    "title": "From Hell",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/from-hell/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/from-hell/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/from-hell/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/from-hell/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/from-hell/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/villain/from-hell/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/villain/from-hell/6%20Percussion.wav"
+      },
+      {
+        "id": "strings",
+        "name": "Strings",
+        "type": "other",
+        "file": "/song-library/released/villain/from-hell/7%20Strings.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/from-hell/8%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "ftp",
+    "title": "FTP",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/ftp/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/ftp/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/ftp/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/ftp/3%20Bass.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/aitistic/ftp/4%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/ftp/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic/ftp/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "ftp-vibe",
+    "title": "FTP (Vibe)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/ftp-vibe/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/ftp-vibe/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic%20unplugged/ftp-vibe/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic%20unplugged/ftp-vibe/3%20Bass.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/aitistic%20unplugged/ftp-vibe/4%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic%20unplugged/ftp-vibe/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic%20unplugged/ftp-vibe/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic%20unplugged/ftp-vibe/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "genesis",
+    "title": "Genesis",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/genesis/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/genesis/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/genesis/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/genesis/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic/genesis/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/genesis/5%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "ghosts-of-broken-promises",
+    "title": "Ghosts of Broken Promises",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/ghosts-of-broken-promises/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/ghosts-of-broken-promises/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/ghosts-of-broken-promises/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/ghosts-of-broken-promises/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic/ghosts-of-broken-promises/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic/ghosts-of-broken-promises/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/ghosts-of-broken-promises/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "ghosts-of-broken-promises-vibe",
+    "title": "Ghosts of Broken Promises (Vibe)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibe/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibe/1%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibe/2%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibe/3%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibe/4%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibe/5%20Percussion.wav"
+      },
+      {
+        "id": "strings",
+        "name": "Strings",
+        "type": "other",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibe/6%20Strings.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibe/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "ghosts-of-broken-promises-vibes",
+    "title": "Ghosts of Broken Promises (Vibes)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibes/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibes/1%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibes/2%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibes/3%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibes/4%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibes/5%20Percussion.wav"
+      },
+      {
+        "id": "strings",
+        "name": "Strings",
+        "type": "other",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibes/6%20Strings.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic%20unplugged/ghosts-of-broken-promises-vibes/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "gucci",
+    "title": "Gucci",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/gucci/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/gucci/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/gucci/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/gucci/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/gucci/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/gucci/5%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "guys-like-me",
+    "title": "Guys Like Me",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/guys-like-me/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/guys-like-me/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/guys-like-me/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/guys-like-me/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/guys-like-me/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/the%20dog%20in%20me/guys-like-me/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/guys-like-me/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "hassle-in-the-castle",
+    "title": "Hassle in the Castle",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/mysterai/hassle-in-the-castle/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/mysterai/hassle-in-the-castle/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/mysterai/hassle-in-the-castle/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/mysterai/hassle-in-the-castle/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/mysterai/hassle-in-the-castle/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/mysterai/hassle-in-the-castle/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/mysterai/hassle-in-the-castle/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "hypothetical-heart",
+    "title": "Hypothetical Heart",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/hypothetical-heart/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/hypothetical-heart/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/hypothetical-heart/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/hypothetical-heart/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/hypothetical-heart/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/hypothetical-heart/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/hypothetical-heart/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico",
+    "title": "I Pledge Not to Spill 4.9 Million Barrels of Oil Into the Gulf of Mexico",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/6%20Percussion.wav"
+      },
+      {
+        "id": "strings",
+        "name": "Strings",
+        "type": "other",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/7%20Strings.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/8%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/9%20Other.wav"
+      },
+      {
+        "id": "brass",
+        "name": "Brass",
+        "type": "brass",
+        "file": "/song-library/released/the%20dog%20in%20me/i-pledge-not-to-spill-4-9-million-barrels-of-oil-into-the-gulf-of-mexico/10%20Brass.wav"
+      }
+    ]
+  },
+  {
+    "id": "i-d-rather-not-mention",
+    "title": "I'd Rather Not Mention",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/i-d-rather-not-mention/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/i-d-rather-not-mention/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/i-d-rather-not-mention/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/i-d-rather-not-mention/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/i-d-rather-not-mention/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/i-d-rather-not-mention/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/i-d-rather-not-mention/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "iwanttobeababyhippo",
+    "title": "IWANTTOBEABABYHIPPO!",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/iwanttobeababyhippo/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/iwanttobeababyhippo/1%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/iwanttobeababyhippo/2%20Bass.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/iwanttobeababyhippo/3%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic/iwanttobeababyhippo/4%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "iwanttobeababyhippo-vibe",
+    "title": "IWANTTOBEABABYHIPPO! (Vibe)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/iwanttobeababyhippo-vibe/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/iwanttobeababyhippo-vibe/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic%20unplugged/iwanttobeababyhippo-vibe/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic%20unplugged/iwanttobeababyhippo-vibe/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic%20unplugged/iwanttobeababyhippo-vibe/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic%20unplugged/iwanttobeababyhippo-vibe/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic%20unplugged/iwanttobeababyhippo-vibe/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "just-believe",
+    "title": "Just Believe",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/just-believe/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/just-believe/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/just-believe/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/just-believe/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/just-believe/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/just-believe/5%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "kerosene-1-12x",
+    "title": "Kerosene (1.12x)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/kerosene/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/kerosene/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/kerosene/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/kerosene/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/kerosene/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/kerosene/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/kerosene/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "lavish-nights-with-dolley",
+    "title": "Lavish Nights with Dolley",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/lavish-nights-with-dolley/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/lavish-nights-with-dolley/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/lavish-nights-with-dolley/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/lavish-nights-with-dolley/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/lavish-nights-with-dolley/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/lavish-nights-with-dolley/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/lavish-nights-with-dolley/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/lavish-nights-with-dolley/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "loud-open",
+    "title": "Loud Open",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/loud/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/loud/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/fukboi3k/loud/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/fukboi3k/loud/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/fukboi3k/loud/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/fukboi3k/loud/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/fukboi3k/loud/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/fukboi3k/loud/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "lucid-love-alt-rock",
+    "title": "Lucid Love [Alt Rock]",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-alt-rock/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-alt-rock/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-alt-rock/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-alt-rock/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-alt-rock/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-alt-rock/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-alt-rock/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "lucid-love-cm",
+    "title": "Lucid Love Cm",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-cm/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-cm/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-cm/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-cm/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-cm/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-cm/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-cm/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/lucid-love-cm/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "mango-in-my-pocket",
+    "title": "Mango in my Pocket",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/mango-in-my-pocket/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/mango-in-my-pocket/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/mango-in-my-pocket/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/mango-in-my-pocket/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/mango-in-my-pocket/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/mango-in-my-pocket/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/mango-in-my-pocket/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/mango-in-my-pocket/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "melancholy",
+    "title": "Melancholy",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/melancholy/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/melancholy/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/melancholy/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/melancholy/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/melancholy/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/villain/melancholy/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/melancholy/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/villain/melancholy/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "mesquite",
+    "title": "Mesquite",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/mesquite/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/mesquite/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/fukboi3k/mesquite/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/fukboi3k/mesquite/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/fukboi3k/mesquite/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/fukboi3k/mesquite/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/fukboi3k/mesquite/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/fukboi3k/mesquite/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/fukboi3k/mesquite/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "mine-your-own-business",
+    "title": "Mine Your Own Business",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/mysterai/mine-your-own-business/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/mysterai/mine-your-own-business/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/mysterai/mine-your-own-business/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/mysterai/mine-your-own-business/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/mysterai/mine-your-own-business/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/mysterai/mine-your-own-business/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/mysterai/mine-your-own-business/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/mysterai/mine-your-own-business/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/mysterai/mine-your-own-business/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "miracle-madchester",
+    "title": "Miracle [Madchester]",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/miracle-madchester/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/miracle-madchester/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/miracle-madchester/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/miracle-madchester/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/miracle-madchester/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/miracle-madchester/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/miracle-madchester/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Whimsical%20Irreverence/miracle-madchester/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "mister-flynn",
+    "title": "Mister Flynn",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/mister-flynn/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/fukboi3k/mister-flynn/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/fukboi3k/mister-flynn/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/fukboi3k/mister-flynn/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/fukboi3k/mister-flynn/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/fukboi3k/mister-flynn/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/fukboi3k/mister-flynn/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "monster",
+    "title": "Monster",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/monster/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/monster/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/monster/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/monster/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/monster/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/villain/monster/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/villain/monster/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/monster/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/villain/monster/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "my-new-bike",
+    "title": "My New Bike",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/my-new-bike/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/my-new-bike/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/my-new-bike/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/my-new-bike/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/my-new-bike/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/my-new-bike/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/my-new-bike/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/my-new-bike/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "notthatthereisanythingwrongwiththat",
+    "title": "NOTTHATTHEREISANYTHINGWRONGWITHTHAT",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/notthatthereisanythingwrongwiththat/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/notthatthereisanythingwrongwiththat/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/notthatthereisanythingwrongwiththat/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/notthatthereisanythingwrongwiththat/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/notthatthereisanythingwrongwiththat/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/notthatthereisanythingwrongwiththat/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/notthatthereisanythingwrongwiththat/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/notthatthereisanythingwrongwiththat/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/notthatthereisanythingwrongwiththat/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "old-spark",
+    "title": "Old Spark",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/old-spark/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/old-spark/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/old-spark/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/old-spark/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/old-spark/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/old-spark/5%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "one-life-to-live",
+    "title": "One Life to Live",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/one-life-to-live/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/one-life-to-live/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/one-life-to-live/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/one-life-to-live/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/one-life-to-live/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/one-life-to-live/5%20Percussion.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/one-life-to-live/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "pet-the-kitty",
+    "title": "Pet the Kitty",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/pet-the-kitty/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/pet-the-kitty/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/pet-the-kitty/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/pet-the-kitty/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/pet-the-kitty/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/pet-the-kitty/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/pet-the-kitty/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/pet-the-kitty/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "please-mr-landis",
+    "title": "Please Mr. Landis",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/please-mr-landis/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/please-mr-landis/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/please-mr-landis/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/please-mr-landis/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/please-mr-landis/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/the%20dog%20in%20me/please-mr-landis/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/please-mr-landis/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "poor-george-michael",
+    "title": "Poor George Michael",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/poor-george-michael/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/poor-george-michael/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/poor-george-michael/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/poor-george-michael/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic/poor-george-michael/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/aitistic/poor-george-michael/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic/poor-george-michael/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/poor-george-michael/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic/poor-george-michael/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "poor-george-michael-vibes",
+    "title": "Poor George Michael (Vibes)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/poor-george-michael-vibes/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic%20unplugged/poor-george-michael-vibes/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic%20unplugged/poor-george-michael-vibes/2%20Drums.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/aitistic%20unplugged/poor-george-michael-vibes/3%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic%20unplugged/poor-george-michael-vibes/4%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "radio",
+    "title": "Radio",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/radio/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/radio/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/radio/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/radio/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/radio/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/radio/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/the%20dog%20in%20me/radio/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "raindrops-20260327",
+    "title": "Raindrops 20260327",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "raindrops-on-university",
+    "title": "Raindrops on University",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "raindrops-on-university-126bpm",
+    "title": "Raindrops on University (126BPM)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v3/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v3/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v3/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v3/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v3/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v3/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v3/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v3/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "raindrops-on-university-v2",
+    "title": "Raindrops on University v2",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v2/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v2/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v2/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v2/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v2/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v2/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v2/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/raindrops-on-university-v2/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "re-becca",
+    "title": "re-becca",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/re-becca/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/re-becca/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/re-becca/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/re-becca/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/re-becca/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/re-becca/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/re-becca/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/re-becca/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/re-becca/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "red-lipstick",
+    "title": "Red Lipstick",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/red-lipstick/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/red-lipstick/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/red-lipstick/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/red-lipstick/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/red-lipstick/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/red-lipstick/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/red-lipstick/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/red-lipstick/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "redneck-spellcheck",
+    "title": "Redneck Spellcheck",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/redneck-spellcheck/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/villain/redneck-spellcheck/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/villain/redneck-spellcheck/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/villain/redneck-spellcheck/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/villain/redneck-spellcheck/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/villain/redneck-spellcheck/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/villain/redneck-spellcheck/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/villain/redneck-spellcheck/7%20Synth.wav"
+      },
+      {
+        "id": "brass",
+        "name": "Brass",
+        "type": "brass",
+        "file": "/song-library/released/villain/redneck-spellcheck/8%20Brass.wav"
+      }
+    ]
+  },
+  {
+    "id": "skeletal-penumbra",
+    "title": "Skeletal Penumbra",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/skeletal-penumbra/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/skeletal-penumbra/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/skeletal-penumbra/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/skeletal-penumbra/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/skeletal-penumbra/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/the%20dog%20in%20me/skeletal-penumbra/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/the%20dog%20in%20me/skeletal-penumbra/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/skeletal-penumbra/7%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/the%20dog%20in%20me/skeletal-penumbra/8%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "stoop-kid-blues",
+    "title": "Stoop Kid Blues",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/stoop-kid-blues/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/stoop-kid-blues/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/stoop-kid-blues/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/stoop-kid-blues/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/stoop-kid-blues/4%20Guitar.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/stoop-kid-blues/5%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/stoop-kid-blues/6%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/afraid%20to%20leave%20my%20stoop%20ep/stoop-kid-blues/7%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "strange-days",
+    "title": "Strange Days",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/strange-days/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/strange-days/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/strange-days/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/strange-days/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/strange-days/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/strange-days/5%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/strange-days/6%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/strange-days/7%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "swagatha-christie",
+    "title": "Swagatha Christie",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "swagatha-christia-91-bpm-a-20260220",
+        "name": "Swagatha Christia 91 BPM A 20260220",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie/Swagatha%20Christia%2091%20BPM%20A%2020260220.wav"
+      },
+      {
+        "id": "swagatha-christie-032326",
+        "name": "Swagatha Christie 032326",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie/Swagatha%20Christie%20032326.wav"
+      },
+      {
+        "id": "swagatha-christie-040326-1",
+        "name": "Swagatha Christie 040326_1",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie/Swagatha%20Christie%20040326_1.wav"
+      },
+      {
+        "id": "swagatha-christie-040326",
+        "name": "Swagatha Christie 040326",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie/Swagatha%20Christie%20040326.wav"
+      },
+      {
+        "id": "swagatha-christie",
+        "name": "Swagatha Christie",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie/Swagatha%20Christie.wav"
+      }
+    ]
+  },
+  {
+    "id": "swagatha-christie-edit",
+    "title": "Swagatha Christie (Edit)",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v3/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v3/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v3/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v3/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v3/4%20Guitar.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v3/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v3/6%20Other.wav"
+      }
+    ]
+  },
+  {
+    "id": "swagatha-christie-20260327",
+    "title": "Swagatha Christie 20260327",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v2/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v2/1%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v2/2%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v2/3%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v2/4%20Keyboard.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/unreleased/Tangerines%20%26%20Daffodils/swagatha-christie-v2/5%20Percussion.wav"
+      }
+    ]
+  },
+  {
+    "id": "there-s-no-funk-in-dysfunction",
+    "title": "There's No Funk in Dysfunction",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/there-s-no-funk-in-dysfunction/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/there-s-no-funk-in-dysfunction/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/there-s-no-funk-in-dysfunction/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/there-s-no-funk-in-dysfunction/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/there-s-no-funk-in-dysfunction/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/the%20dog%20in%20me/there-s-no-funk-in-dysfunction/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/there-s-no-funk-in-dysfunction/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "thirsty-thursdays",
+    "title": "Thirsty Thursdays",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/thirsty-thursdays/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/thirsty-thursdays/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/thirsty-thursdays/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/thirsty-thursdays/3%20Bass.wav"
+      },
+      {
+        "id": "guitar",
+        "name": "Guitar",
+        "type": "guitar",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/thirsty-thursdays/4%20Guitar.wav"
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "type": "keys",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/thirsty-thursdays/5%20Keyboard.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/%22you%20and%20your%20hoes%22/thirsty-thursdays/6%20Synth.wav"
+      }
+    ]
+  },
+  {
+    "id": "turn-the-screw",
+    "title": "Turn the Screw",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "lead-vocals",
+        "name": "Lead Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/turn-the-screw/0%20Lead%20Vocals.wav"
+      },
+      {
+        "id": "backing-vocals",
+        "name": "Backing Vocals",
+        "type": "vocals",
+        "file": "/song-library/released/aitistic/turn-the-screw/1%20Backing%20Vocals.wav"
+      },
+      {
+        "id": "drums",
+        "name": "Drums",
+        "type": "drums",
+        "file": "/song-library/released/aitistic/turn-the-screw/2%20Drums.wav"
+      },
+      {
+        "id": "bass",
+        "name": "Bass",
+        "type": "bass",
+        "file": "/song-library/released/aitistic/turn-the-screw/3%20Bass.wav"
+      },
+      {
+        "id": "percussion",
+        "name": "Percussion",
+        "type": "percussion",
+        "file": "/song-library/released/aitistic/turn-the-screw/4%20Percussion.wav"
+      },
+      {
+        "id": "synth",
+        "name": "Synth",
+        "type": "synth",
+        "file": "/song-library/released/aitistic/turn-the-screw/5%20Synth.wav"
+      },
+      {
+        "id": "other",
+        "name": "Other",
+        "type": "other",
+        "file": "/song-library/released/aitistic/turn-the-screw/6%20Other.wav"
+      },
+      {
+        "id": "brass",
+        "name": "Brass",
+        "type": "brass",
+        "file": "/song-library/released/aitistic/turn-the-screw/7%20Brass.wav"
+      }
+    ]
+  },
+  {
+    "id": "what-s-done-is-done",
+    "title": "What's Done is Done",
+    "artist": "Snazzy Garfield",
+    "bpm": null,
+    "key": null,
+    "master": null,
+    "stems": [
+      {
+        "id": "what-s-done-is-done-remix-backing-vocals",
+        "name": "What's Done Is Done (Remix) (Backing Vocals)",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/what-s-done-is-done/03%20What's%20Done%20Is%20Done%20(Remix)%20(Backing%20Vocals).wav"
+      },
+      {
+        "id": "what-s-done-is-done-remix-bass",
+        "name": "What's Done Is Done (Remix) (Bass)",
+        "type": "bass",
+        "file": "/song-library/released/the%20dog%20in%20me/what-s-done-is-done/03%20What's%20Done%20Is%20Done%20(Remix)%20(Bass).wav"
+      },
+      {
+        "id": "what-s-done-is-done-remix-drums",
+        "name": "What's Done Is Done (Remix) (Drums)",
+        "type": "drums",
+        "file": "/song-library/released/the%20dog%20in%20me/what-s-done-is-done/03%20What's%20Done%20Is%20Done%20(Remix)%20(Drums).wav"
+      },
+      {
+        "id": "what-s-done-is-done-remix-fx",
+        "name": "What's Done Is Done (Remix) (FX)",
+        "type": "other",
+        "file": "/song-library/released/the%20dog%20in%20me/what-s-done-is-done/03%20What's%20Done%20Is%20Done%20(Remix)%20(FX).wav"
+      },
+      {
+        "id": "what-s-done-is-done-remix-guitar",
+        "name": "What's Done Is Done (Remix) (Guitar)",
+        "type": "guitar",
+        "file": "/song-library/released/the%20dog%20in%20me/what-s-done-is-done/03%20What's%20Done%20Is%20Done%20(Remix)%20(Guitar).wav"
+      },
+      {
+        "id": "what-s-done-is-done-remix-keyboard",
+        "name": "What's Done Is Done (Remix) (Keyboard)",
+        "type": "keys",
+        "file": "/song-library/released/the%20dog%20in%20me/what-s-done-is-done/03%20What's%20Done%20Is%20Done%20(Remix)%20(Keyboard).wav"
+      },
+      {
+        "id": "what-s-done-is-done-remix-percussion",
+        "name": "What's Done Is Done (Remix) (Percussion)",
+        "type": "percussion",
+        "file": "/song-library/released/the%20dog%20in%20me/what-s-done-is-done/03%20What's%20Done%20Is%20Done%20(Remix)%20(Percussion).wav"
+      },
+      {
+        "id": "what-s-done-is-done-remix-synth",
+        "name": "What's Done Is Done (Remix) (Synth)",
+        "type": "synth",
+        "file": "/song-library/released/the%20dog%20in%20me/what-s-done-is-done/03%20What's%20Done%20Is%20Done%20(Remix)%20(Synth).wav"
+      },
+      {
+        "id": "what-s-done-is-done-remix-vocals",
+        "name": "What's Done Is Done (Remix) (Vocals)",
+        "type": "vocals",
+        "file": "/song-library/released/the%20dog%20in%20me/what-s-done-is-done/03%20What's%20Done%20Is%20Done%20(Remix)%20(Vocals).wav"
+      }
+    ]
+  }
+]
