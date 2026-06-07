@@ -3,9 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { PracticePreset, Song, StemState } from "@/lib/types";
 
-type BufferMap = Record<string, AudioBuffer>;
-type GainMap = Record<string, GainNode>;
-type SourceMap = Record<string, AudioBufferSourceNode>;
+type AudioElementMap = Record<string, HTMLAudioElement>;
 type ErrorMap = Record<string, string>;
 
 const defaultAudioBaseUrl =
@@ -40,12 +38,23 @@ function clampTime(time: number, duration: number) {
   return Math.min(Math.max(time, 0), Math.max(duration, 0));
 }
 
+function getAudioErrorMessage(audio: HTMLAudioElement, src: string) {
+  switch (audio.error?.code) {
+    case MediaError.MEDIA_ERR_ABORTED:
+      return `Loading was cancelled for ${src}`;
+    case MediaError.MEDIA_ERR_NETWORK:
+      return `Network error while loading ${src}`;
+    case MediaError.MEDIA_ERR_DECODE:
+      return `Browser could not decode ${src}`;
+    case MediaError.MEDIA_ERR_SRC_NOT_SUPPORTED:
+      return `Browser does not support ${src}`;
+    default:
+      return `Could not load ${src}`;
+  }
+}
+
 export function useStemPlayer(song: Song) {
-  const audioContextRef = useRef<AudioContext | null>(null);
-  const buffersRef = useRef<BufferMap>({});
-  const gainNodesRef = useRef<GainMap>({});
-  const sourcesRef = useRef<SourceMap>({});
-  const startedAtRef = useRef(0);
+  const audioElementsRef = useRef<AudioElementMap>({});
   const pausedAtRef = useRef(0);
   const animationFrameRef = useRef<number | null>(null);
   const isPlayingRef = useRef(false);
@@ -92,38 +101,36 @@ export function useStemPlayer(song: Song) {
     }
   }, []);
 
-  const updateGainNodes = useCallback(() => {
+  const updateAudioElements = useCallback(() => {
     const soloed = Object.values(stemStatesRef.current).some(
       (state) => state.soloed
     );
 
-    for (const [stemId, gainNode] of Object.entries(gainNodesRef.current)) {
+    for (const [stemId, audio] of Object.entries(audioElementsRef.current)) {
       const state = stemStatesRef.current[stemId];
       const shouldPlay = state && !state.muted && (!soloed || state.soloed);
-      gainNode.gain.value = shouldPlay ? state.volume / 100 : 0;
+
+      audio.muted = !shouldPlay;
+      audio.volume = shouldPlay ? state.volume / 100 : 0;
     }
   }, []);
 
-  const stopSources = useCallback(() => {
-    for (const source of Object.values(sourcesRef.current)) {
-      try {
-        source.onended = null;
-        source.stop();
-      } catch {
-        // Already stopped sources cannot be stopped again.
-      }
+  const pauseElements = useCallback(() => {
+    for (const audio of Object.values(audioElementsRef.current)) {
+      audio.pause();
     }
-    sourcesRef.current = {};
   }, []);
 
   const tick = useCallback(() => {
-    const context = audioContextRef.current;
-    if (!context || !isPlayingRef.current) {
+    if (!isPlayingRef.current) {
       return;
     }
 
+    const primaryAudio =
+      Object.values(audioElementsRef.current).find((audio) => !audio.paused) ??
+      Object.values(audioElementsRef.current)[0];
     const nextTime = clampTime(
-      context.currentTime - startedAtRef.current,
+      primaryAudio?.currentTime ?? pausedAtRef.current,
       durationRef.current
     );
 
@@ -134,57 +141,28 @@ export function useStemPlayer(song: Song) {
       pausedAtRef.current = 0;
       setIsPlaying(false);
       setCurrentTime(0);
-      stopSources();
+      pauseElements();
       stopAnimation();
       return;
     }
 
     animationFrameRef.current = requestAnimationFrame(tick);
-  }, [stopAnimation, stopSources]);
+  }, [pauseElements, stopAnimation]);
 
-  const ensureContext = useCallback(() => {
-    if (!audioContextRef.current) {
-      audioContextRef.current = new AudioContext();
+  const setElementTimes = useCallback((time: number) => {
+    for (const audio of Object.values(audioElementsRef.current)) {
+      try {
+        audio.currentTime = clampTime(time, audio.duration || durationRef.current);
+      } catch {
+        // Some browsers reject seeking before the media is fully ready.
+      }
     }
-
-    return audioContextRef.current;
   }, []);
 
-  const startSources = useCallback(
-    async (offset: number) => {
-      const context = ensureContext();
-      await context.resume();
-
-      stopSources();
-
-      const scheduledTime = context.currentTime + 0.03;
-      startedAtRef.current = scheduledTime - offset;
-
-      for (const [stemId, buffer] of Object.entries(buffersRef.current)) {
-        const source = context.createBufferSource();
-        const gainNode =
-          gainNodesRef.current[stemId] ?? context.createGain();
-
-        source.buffer = buffer;
-        source.connect(gainNode);
-        gainNode.connect(context.destination);
-        source.start(scheduledTime, clampTime(offset, buffer.duration));
-
-        sourcesRef.current[stemId] = source;
-        gainNodesRef.current[stemId] = gainNode;
-      }
-
-      updateGainNodes();
-      isPlayingRef.current = true;
-      setIsPlaying(true);
-      stopAnimation();
-      animationFrameRef.current = requestAnimationFrame(tick);
-    },
-    [ensureContext, stopAnimation, stopSources, tick, updateGainNodes]
-  );
-
   const play = useCallback(async () => {
-    if (Object.keys(buffersRef.current).length === 0) {
+    const audioElements = Object.values(audioElementsRef.current);
+
+    if (audioElements.length === 0) {
       return;
     }
 
@@ -193,34 +171,49 @@ export function useStemPlayer(song: Song) {
         ? 0
         : pausedAtRef.current;
 
-    await startSources(offset);
-  }, [startSources]);
+    setElementTimes(offset);
+    updateAudioElements();
+
+    try {
+      await Promise.all(audioElements.map((audio) => audio.play()));
+      pausedAtRef.current = offset;
+      isPlayingRef.current = true;
+      setIsPlaying(true);
+      stopAnimation();
+      animationFrameRef.current = requestAnimationFrame(tick);
+    } catch {
+      isPlayingRef.current = false;
+      setIsPlaying(false);
+      pauseElements();
+    }
+  }, [pauseElements, setElementTimes, stopAnimation, tick, updateAudioElements]);
 
   const pause = useCallback(() => {
-    const context = audioContextRef.current;
-    if (!context || !isPlayingRef.current) {
+    if (!isPlayingRef.current) {
       return;
     }
 
+    const primaryAudio = Object.values(audioElementsRef.current)[0];
     pausedAtRef.current = clampTime(
-      context.currentTime - startedAtRef.current,
+      primaryAudio?.currentTime ?? pausedAtRef.current,
       durationRef.current
     );
     setCurrentTime(pausedAtRef.current);
     isPlayingRef.current = false;
     setIsPlaying(false);
-    stopSources();
+    pauseElements();
     stopAnimation();
-  }, [stopAnimation, stopSources]);
+  }, [pauseElements, stopAnimation]);
 
   const stop = useCallback(() => {
     pausedAtRef.current = 0;
     isPlayingRef.current = false;
     setIsPlaying(false);
     setCurrentTime(0);
-    stopSources();
+    pauseElements();
+    setElementTimes(0);
     stopAnimation();
-  }, [stopAnimation, stopSources]);
+  }, [pauseElements, setElementTimes, stopAnimation]);
 
   const seek = useCallback(
     async (time: number) => {
@@ -228,12 +221,13 @@ export function useStemPlayer(song: Song) {
       const wasPlaying = isPlayingRef.current;
       pausedAtRef.current = nextTime;
       setCurrentTime(nextTime);
+      setElementTimes(nextTime);
 
       if (wasPlaying) {
-        await startSources(nextTime);
+        await play();
       }
     },
-    [startSources]
+    [play, setElementTimes]
   );
 
   const setStemMuted = useCallback(
@@ -249,9 +243,9 @@ export function useStemPlayer(song: Song) {
         stemStatesRef.current = next;
         return next;
       });
-      requestAnimationFrame(updateGainNodes);
+      requestAnimationFrame(updateAudioElements);
     },
-    [updateGainNodes]
+    [updateAudioElements]
   );
 
   const setStemSoloed = useCallback(
@@ -267,9 +261,9 @@ export function useStemPlayer(song: Song) {
         stemStatesRef.current = next;
         return next;
       });
-      requestAnimationFrame(updateGainNodes);
+      requestAnimationFrame(updateAudioElements);
     },
-    [updateGainNodes]
+    [updateAudioElements]
   );
 
   const setStemVolume = useCallback(
@@ -285,9 +279,9 @@ export function useStemPlayer(song: Song) {
         stemStatesRef.current = next;
         return next;
       });
-      requestAnimationFrame(updateGainNodes);
+      requestAnimationFrame(updateAudioElements);
     },
-    [updateGainNodes]
+    [updateAudioElements]
   );
 
   const applyPreset = useCallback(
@@ -345,68 +339,79 @@ export function useStemPlayer(song: Song) {
         stemStatesRef.current = next;
         return next;
       });
-      requestAnimationFrame(updateGainNodes);
+      requestAnimationFrame(updateAudioElements);
     },
-    [song.stems, updateGainNodes]
+    [song.stems, updateAudioElements]
   );
 
   useEffect(() => {
-    const context = ensureContext();
     let cancelled = false;
     const nextStates = createInitialStemStates(song);
 
+    stop();
     setIsLoading(true);
     setErrors({});
     setLoadedStemIds(new Set());
     setStemStates(nextStates);
     stemStatesRef.current = nextStates;
-    buffersRef.current = {};
-    gainNodesRef.current = {};
+    audioElementsRef.current = {};
     durationRef.current = 0;
     pausedAtRef.current = 0;
     setDuration(0);
     setCurrentTime(0);
 
-    async function loadStem(stemId: string, file: string) {
-      const stemFile = resolveStemFile(file);
-      const response = await fetch(stemFile);
+    function loadStem(stemId: string, file: string) {
+      const src = resolveStemFile(file);
 
-      if (!response.ok) {
-        throw new Error(`Could not load ${stemFile}`);
-      }
+      return new Promise<{ stemId: string; audio: HTMLAudioElement }>(
+        (resolve, reject) => {
+          const audio = new Audio();
 
-      const data = await response.arrayBuffer();
-      const buffer = await context.decodeAudioData(data);
+          audio.crossOrigin = "anonymous";
+          audio.preload = "metadata";
+          audio.src = src;
 
-      if (!cancelled) {
-        buffersRef.current = {
-          ...buffersRef.current,
-          [stemId]: buffer
-        };
-        setLoadedStemIds((current) => new Set(current).add(stemId));
-      }
+          const cleanup = () => {
+            audio.removeEventListener("loadedmetadata", handleLoaded);
+            audio.removeEventListener("canplay", handleLoaded);
+            audio.removeEventListener("error", handleError);
+          };
 
-      return buffer;
+          const handleLoaded = () => {
+            cleanup();
+            resolve({ stemId, audio });
+          };
+
+          const handleError = () => {
+            cleanup();
+            reject(new Error(getAudioErrorMessage(audio, src)));
+          };
+
+          audio.addEventListener("loadedmetadata", handleLoaded, { once: true });
+          audio.addEventListener("canplay", handleLoaded, { once: true });
+          audio.addEventListener("error", handleError, { once: true });
+          audio.load();
+        }
+      );
     }
 
     Promise.allSettled(
-      song.stems.map(async (stem) => {
-        const buffer = await loadStem(stem.id, stem.file);
-        return { stemId: stem.id, buffer };
-      })
+      song.stems.map((stem) => loadStem(stem.id, stem.file))
     ).then((results) => {
       if (cancelled) {
         return;
       }
 
-      const nextBuffers: BufferMap = {};
+      const nextElements: AudioElementMap = {};
       const nextErrors: ErrorMap = {};
+      const nextLoadedIds = new Set<string>();
 
       results.forEach((result, index) => {
         const stem = song.stems[index];
 
         if (result.status === "fulfilled") {
-          nextBuffers[result.value.stemId] = result.value.buffer;
+          nextElements[result.value.stemId] = result.value.audio;
+          nextLoadedIds.add(result.value.stemId);
         } else {
           nextErrors[stem.id] =
             result.reason instanceof Error
@@ -415,36 +420,41 @@ export function useStemPlayer(song: Song) {
         }
       });
 
-      const nextDuration = Object.values(nextBuffers).reduce(
-        (longest, buffer) => Math.max(longest, buffer.duration),
+      const nextDuration = Object.values(nextElements).reduce(
+        (longest, audio) => Math.max(longest, audio.duration || 0),
         0
       );
 
-      buffersRef.current = nextBuffers;
+      audioElementsRef.current = nextElements;
       durationRef.current = nextDuration;
       setDuration(nextDuration);
+      setLoadedStemIds(nextLoadedIds);
       setErrors(nextErrors);
       setIsLoading(false);
+      updateAudioElements();
     });
 
     return () => {
       cancelled = true;
-      stop();
+      for (const audio of Object.values(audioElementsRef.current)) {
+        audio.pause();
+        audio.removeAttribute("src");
+        audio.load();
+      }
+      audioElementsRef.current = {};
     };
-  }, [ensureContext, song, stop]);
+  }, [song, stop, updateAudioElements]);
 
   useEffect(() => {
-    updateGainNodes();
-  }, [stemStates, updateGainNodes]);
+    updateAudioElements();
+  }, [stemStates, updateAudioElements]);
 
   useEffect(() => {
     return () => {
       stopAnimation();
-      stopSources();
-      audioContextRef.current?.close();
-      audioContextRef.current = null;
+      pauseElements();
     };
-  }, [stopAnimation, stopSources]);
+  }, [pauseElements, stopAnimation]);
 
   return {
     applyPreset,
