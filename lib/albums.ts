@@ -56,7 +56,9 @@ export function prettifyPathPart(value: string | undefined) {
 
 export function getSongPlacement(song: Song) {
   const pathParts = song.stems[0]?.file.split("/").filter(Boolean) ?? [];
-  const libraryIndex = pathParts.indexOf("song-library");
+  const libraryIndex = pathParts.findIndex((part) =>
+    part.startsWith("song-library")
+  );
   const section = pathParts[libraryIndex + 1] as ReleaseSection | undefined;
   const title = prettifyPathPart(pathParts[libraryIndex + 2]);
 

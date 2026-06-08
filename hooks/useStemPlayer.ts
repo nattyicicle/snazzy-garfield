@@ -3,12 +3,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { PracticePreset, Song, StemState } from "@/lib/types";
 
-type AudioElementMap = Record<string, HTMLAudioElement>;
+type BufferMap = Record<string, AudioBuffer>;
+type GainMap = Record<string, GainNode>;
+type SourceMap = Record<string, AudioBufferSourceNode>;
 type ErrorMap = Record<string, string>;
 
-const hardSyncThreshold = 0.08;
-const softSyncThreshold = 0.025;
-const syncPlaybackRate = 0.04;
 const defaultAudioBaseUrl =
   "https://pub-6c46ccb0377243cd898f83c8198c5e6f.r2.dev";
 const audioBaseUrl = (
@@ -41,24 +40,12 @@ function clampTime(time: number, duration: number) {
   return Math.min(Math.max(time, 0), Math.max(duration, 0));
 }
 
-function getAudioErrorMessage(audio: HTMLAudioElement, src: string) {
-  switch (audio.error?.code) {
-    case MediaError.MEDIA_ERR_ABORTED:
-      return `Loading was cancelled for ${src}`;
-    case MediaError.MEDIA_ERR_NETWORK:
-      return `Network error while loading ${src}`;
-    case MediaError.MEDIA_ERR_DECODE:
-      return `Browser could not decode ${src}`;
-    case MediaError.MEDIA_ERR_SRC_NOT_SUPPORTED:
-      return `Browser does not support ${src}`;
-    default:
-      return `Could not load ${src}`;
-  }
-}
-
 export function useStemPlayer(song: Song) {
-  const audioElementsRef = useRef<AudioElementMap>({});
-  const primaryStemIdRef = useRef<string | null>(null);
+  const audioContextRef = useRef<AudioContext | null>(null);
+  const buffersRef = useRef<BufferMap>({});
+  const gainNodesRef = useRef<GainMap>({});
+  const sourcesRef = useRef<SourceMap>({});
+  const startedAtRef = useRef(0);
   const pausedAtRef = useRef(0);
   const animationFrameRef = useRef<number | null>(null);
   const isPlayingRef = useRef(false);
@@ -105,61 +92,41 @@ export function useStemPlayer(song: Song) {
     }
   }, []);
 
-  const updateAudioElements = useCallback(() => {
+  const updateGainNodes = useCallback(() => {
     const soloed = Object.values(stemStatesRef.current).some(
       (state) => state.soloed
     );
 
-    for (const [stemId, audio] of Object.entries(audioElementsRef.current)) {
+    for (const [stemId, gainNode] of Object.entries(gainNodesRef.current)) {
       const state = stemStatesRef.current[stemId];
       const shouldPlay = state && !state.muted && (!soloed || state.soloed);
-
-      audio.muted = !shouldPlay;
-      audio.volume = shouldPlay ? state.volume / 100 : 0;
+      gainNode.gain.value = shouldPlay ? state.volume / 100 : 0;
     }
   }, []);
 
-  const pauseElements = useCallback(() => {
-    for (const audio of Object.values(audioElementsRef.current)) {
-      audio.pause();
+  const stopSources = useCallback(() => {
+    for (const source of Object.values(sourcesRef.current)) {
+      try {
+        source.onended = null;
+        source.stop();
+      } catch {
+        // Already stopped sources cannot be stopped again.
+      }
     }
+    sourcesRef.current = {};
   }, []);
 
   const tick = useCallback(() => {
-    if (!isPlayingRef.current) {
+    const context = audioContextRef.current;
+
+    if (!context || !isPlayingRef.current) {
       return;
     }
 
-    const audioEntries = Object.entries(audioElementsRef.current);
-    const primaryAudio =
-      (primaryStemIdRef.current
-        ? audioElementsRef.current[primaryStemIdRef.current]
-        : null) ??
-      audioEntries.find(([, audio]) => !audio.paused)?.[1] ??
-      audioEntries[0]?.[1];
     const nextTime = clampTime(
-      primaryAudio?.currentTime ?? pausedAtRef.current,
+      context.currentTime - startedAtRef.current,
       durationRef.current
     );
-
-    if (primaryAudio) {
-      for (const [, audio] of audioEntries) {
-        if (audio === primaryAudio || audio.paused || audio.readyState < 2) {
-          continue;
-        }
-
-        const drift = audio.currentTime - nextTime;
-
-        if (Math.abs(drift) > hardSyncThreshold) {
-          audio.currentTime = nextTime;
-          audio.playbackRate = 1;
-        } else if (Math.abs(drift) > softSyncThreshold) {
-          audio.playbackRate = drift > 0 ? 1 - syncPlaybackRate : 1 + syncPlaybackRate;
-        } else {
-          audio.playbackRate = 1;
-        }
-      }
-    }
 
     setCurrentTime(nextTime);
 
@@ -168,28 +135,57 @@ export function useStemPlayer(song: Song) {
       pausedAtRef.current = 0;
       setIsPlaying(false);
       setCurrentTime(0);
-      pauseElements();
+      stopSources();
       stopAnimation();
       return;
     }
 
     animationFrameRef.current = requestAnimationFrame(tick);
-  }, [pauseElements, stopAnimation]);
+  }, [stopAnimation, stopSources]);
 
-  const setElementTimes = useCallback((time: number) => {
-    for (const audio of Object.values(audioElementsRef.current)) {
-      try {
-        audio.currentTime = clampTime(time, audio.duration || durationRef.current);
-      } catch {
-        // Some browsers reject seeking before the media is fully ready.
-      }
+  const ensureContext = useCallback(() => {
+    if (!audioContextRef.current) {
+      audioContextRef.current = new AudioContext();
     }
+
+    return audioContextRef.current;
   }, []);
 
-  const play = useCallback(async () => {
-    const audioElements = Object.values(audioElementsRef.current);
+  const startSources = useCallback(
+    async (offset: number) => {
+      const context = ensureContext();
+      await context.resume();
 
-    if (audioElements.length === 0) {
+      stopSources();
+
+      const scheduledTime = context.currentTime + 0.03;
+      startedAtRef.current = scheduledTime - offset;
+
+      for (const [stemId, buffer] of Object.entries(buffersRef.current)) {
+        const source = context.createBufferSource();
+        const gainNode =
+          gainNodesRef.current[stemId] ?? context.createGain();
+
+        source.buffer = buffer;
+        source.connect(gainNode);
+        gainNode.connect(context.destination);
+        source.start(scheduledTime, clampTime(offset, buffer.duration));
+
+        sourcesRef.current[stemId] = source;
+        gainNodesRef.current[stemId] = gainNode;
+      }
+
+      updateGainNodes();
+      isPlayingRef.current = true;
+      setIsPlaying(true);
+      stopAnimation();
+      animationFrameRef.current = requestAnimationFrame(tick);
+    },
+    [ensureContext, stopAnimation, stopSources, tick, updateGainNodes]
+  );
+
+  const play = useCallback(async () => {
+    if (Object.keys(buffersRef.current).length === 0) {
       return;
     }
 
@@ -198,64 +194,35 @@ export function useStemPlayer(song: Song) {
         ? 0
         : pausedAtRef.current;
 
-    setElementTimes(offset);
-    updateAudioElements();
-
-    try {
-      await Promise.allSettled(audioElements.map((audio) => audio.play()));
-      const primaryAudio =
-        (primaryStemIdRef.current
-          ? audioElementsRef.current[primaryStemIdRef.current]
-          : null) ?? audioElements[0];
-      const startTime = primaryAudio?.currentTime ?? offset;
-
-      for (const audio of audioElements) {
-        if (audio !== primaryAudio && Math.abs(audio.currentTime - startTime) > 0.02) {
-          audio.currentTime = startTime;
-        }
-      }
-
-      pausedAtRef.current = offset;
-      isPlayingRef.current = true;
-      setIsPlaying(true);
-      stopAnimation();
-      animationFrameRef.current = requestAnimationFrame(tick);
-    } catch {
-      isPlayingRef.current = false;
-      setIsPlaying(false);
-      pauseElements();
-    }
-  }, [pauseElements, setElementTimes, stopAnimation, tick, updateAudioElements]);
+    await startSources(offset);
+  }, [startSources]);
 
   const pause = useCallback(() => {
-    if (!isPlayingRef.current) {
+    const context = audioContextRef.current;
+
+    if (!context || !isPlayingRef.current) {
       return;
     }
 
-    const primaryAudio = Object.values(audioElementsRef.current)[0];
     pausedAtRef.current = clampTime(
-      primaryAudio?.currentTime ?? pausedAtRef.current,
+      context.currentTime - startedAtRef.current,
       durationRef.current
     );
     setCurrentTime(pausedAtRef.current);
     isPlayingRef.current = false;
     setIsPlaying(false);
-    pauseElements();
+    stopSources();
     stopAnimation();
-  }, [pauseElements, stopAnimation]);
+  }, [stopAnimation, stopSources]);
 
   const stop = useCallback(() => {
     pausedAtRef.current = 0;
     isPlayingRef.current = false;
     setIsPlaying(false);
     setCurrentTime(0);
-    pauseElements();
-    setElementTimes(0);
-    for (const audio of Object.values(audioElementsRef.current)) {
-      audio.playbackRate = 1;
-    }
+    stopSources();
     stopAnimation();
-  }, [pauseElements, setElementTimes, stopAnimation]);
+  }, [stopAnimation, stopSources]);
 
   const seek = useCallback(
     async (time: number) => {
@@ -263,13 +230,12 @@ export function useStemPlayer(song: Song) {
       const wasPlaying = isPlayingRef.current;
       pausedAtRef.current = nextTime;
       setCurrentTime(nextTime);
-      setElementTimes(nextTime);
 
       if (wasPlaying) {
-        await play();
+        await startSources(nextTime);
       }
     },
-    [play, setElementTimes]
+    [startSources]
   );
 
   const setStemMuted = useCallback(
@@ -285,9 +251,9 @@ export function useStemPlayer(song: Song) {
         stemStatesRef.current = next;
         return next;
       });
-      requestAnimationFrame(updateAudioElements);
+      requestAnimationFrame(updateGainNodes);
     },
-    [updateAudioElements]
+    [updateGainNodes]
   );
 
   const setStemSoloed = useCallback(
@@ -303,9 +269,9 @@ export function useStemPlayer(song: Song) {
         stemStatesRef.current = next;
         return next;
       });
-      requestAnimationFrame(updateAudioElements);
+      requestAnimationFrame(updateGainNodes);
     },
-    [updateAudioElements]
+    [updateGainNodes]
   );
 
   const setStemVolume = useCallback(
@@ -321,9 +287,9 @@ export function useStemPlayer(song: Song) {
         stemStatesRef.current = next;
         return next;
       });
-      requestAnimationFrame(updateAudioElements);
+      requestAnimationFrame(updateGainNodes);
     },
-    [updateAudioElements]
+    [updateGainNodes]
   );
 
   const applyPreset = useCallback(
@@ -381,12 +347,13 @@ export function useStemPlayer(song: Song) {
         stemStatesRef.current = next;
         return next;
       });
-      requestAnimationFrame(updateAudioElements);
+      requestAnimationFrame(updateGainNodes);
     },
-    [song.stems, updateAudioElements]
+    [song.stems, updateGainNodes]
   );
 
   useEffect(() => {
+    const context = ensureContext();
     let cancelled = false;
     const nextStates = createInitialStemStates(song);
 
@@ -396,65 +363,53 @@ export function useStemPlayer(song: Song) {
     setLoadedStemIds(new Set());
     setStemStates(nextStates);
     stemStatesRef.current = nextStates;
-    audioElementsRef.current = {};
-    primaryStemIdRef.current = null;
+    buffersRef.current = {};
+    gainNodesRef.current = {};
     durationRef.current = 0;
     pausedAtRef.current = 0;
     setDuration(0);
     setCurrentTime(0);
 
-    function loadStem(stemId: string, file: string) {
-      const src = resolveStemFile(file);
+    async function loadStem(stemId: string, file: string) {
+      const stemFile = resolveStemFile(file);
+      const response = await fetch(stemFile);
 
-      return new Promise<{ stemId: string; audio: HTMLAudioElement }>(
-        (resolve, reject) => {
-          const audio = new Audio();
+      if (!response.ok) {
+        throw new Error(`Could not load ${stemFile}`);
+      }
 
-          audio.crossOrigin = "anonymous";
-          audio.preload = "metadata";
-          audio.src = src;
+      const data = await response.arrayBuffer();
+      const buffer = await context.decodeAudioData(data);
 
-          const cleanup = () => {
-            audio.removeEventListener("loadedmetadata", handleLoaded);
-            audio.removeEventListener("canplay", handleLoaded);
-            audio.removeEventListener("error", handleError);
-          };
+      if (!cancelled) {
+        buffersRef.current = {
+          ...buffersRef.current,
+          [stemId]: buffer
+        };
+        setLoadedStemIds((current) => new Set(current).add(stemId));
+      }
 
-          const handleLoaded = () => {
-            cleanup();
-            resolve({ stemId, audio });
-          };
-
-          const handleError = () => {
-            cleanup();
-            reject(new Error(getAudioErrorMessage(audio, src)));
-          };
-
-          audio.addEventListener("loadedmetadata", handleLoaded, { once: true });
-          audio.addEventListener("canplay", handleLoaded, { once: true });
-          audio.addEventListener("error", handleError, { once: true });
-          audio.load();
-        }
-      );
+      return buffer;
     }
 
     Promise.allSettled(
-      song.stems.map((stem) => loadStem(stem.id, stem.file))
+      song.stems.map(async (stem) => {
+        const buffer = await loadStem(stem.id, stem.file);
+        return { stemId: stem.id, buffer };
+      })
     ).then((results) => {
       if (cancelled) {
         return;
       }
 
-      const nextElements: AudioElementMap = {};
+      const nextBuffers: BufferMap = {};
       const nextErrors: ErrorMap = {};
-      const nextLoadedIds = new Set<string>();
 
       results.forEach((result, index) => {
         const stem = song.stems[index];
 
         if (result.status === "fulfilled") {
-          nextElements[result.value.stemId] = result.value.audio;
-          nextLoadedIds.add(result.value.stemId);
+          nextBuffers[result.value.stemId] = result.value.buffer;
         } else {
           nextErrors[stem.id] =
             result.reason instanceof Error
@@ -463,45 +418,36 @@ export function useStemPlayer(song: Song) {
         }
       });
 
-      const nextDuration = Object.values(nextElements).reduce(
-        (longest, audio) => Math.max(longest, audio.duration || 0),
+      const nextDuration = Object.values(nextBuffers).reduce(
+        (longest, buffer) => Math.max(longest, buffer.duration),
         0
       );
 
-      audioElementsRef.current = nextElements;
-      primaryStemIdRef.current = song.stems.find((stem) =>
-        nextLoadedIds.has(stem.id)
-      )?.id ?? null;
+      buffersRef.current = nextBuffers;
       durationRef.current = nextDuration;
       setDuration(nextDuration);
-      setLoadedStemIds(nextLoadedIds);
       setErrors(nextErrors);
       setIsLoading(false);
-      updateAudioElements();
     });
 
     return () => {
       cancelled = true;
-      for (const audio of Object.values(audioElementsRef.current)) {
-        audio.pause();
-        audio.playbackRate = 1;
-        audio.removeAttribute("src");
-        audio.load();
-      }
-      audioElementsRef.current = {};
+      stop();
     };
-  }, [song, stop, updateAudioElements]);
+  }, [ensureContext, song, stop]);
 
   useEffect(() => {
-    updateAudioElements();
-  }, [stemStates, updateAudioElements]);
+    updateGainNodes();
+  }, [stemStates, updateGainNodes]);
 
   useEffect(() => {
     return () => {
       stopAnimation();
-      pauseElements();
+      stopSources();
+      audioContextRef.current?.close();
+      audioContextRef.current = null;
     };
-  }, [pauseElements, stopAnimation]);
+  }, [stopAnimation, stopSources]);
 
   return {
     applyPreset,

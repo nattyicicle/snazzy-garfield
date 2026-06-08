@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "audio:convert": "node scripts/convert-practice-audio.mjs",
+    "audio:use-practice": "node scripts/use-practice-audio-manifest.mjs"
   },
   "dependencies": {
     "next": "16.2.7",
