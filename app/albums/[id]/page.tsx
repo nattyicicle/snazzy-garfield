@@ -87,10 +87,12 @@ export default async function AlbumPage({ params }: AlbumPageProps) {
                 {song.title}
               </span>
               <span className="text-sm text-stone-500">
-                {song.stems.length} stems
+                {song.stems.length > 0
+                  ? `${song.stems.length} stems`
+                  : "Reference"}
               </span>
               <span className="text-sm font-semibold text-amberline">
-                Open mixer
+                Open song
               </span>
             </Link>
           ))}

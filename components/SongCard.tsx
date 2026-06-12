@@ -27,7 +27,7 @@ export function SongCard({ song }: SongCardProps) {
           ) : null}
         </div>
         <span className="rounded border border-amberline/40 px-2 py-1 text-xs font-semibold uppercase tracking-wide text-amberline">
-          {song.stems.length} stems
+          {song.stems.length > 0 ? `${song.stems.length} stems` : "Reference"}
         </span>
       </div>
       <dl className="mt-5 grid grid-cols-2 gap-3 text-sm text-stone-300 sm:grid-cols-3">
@@ -42,7 +42,7 @@ export function SongCard({ song }: SongCardProps) {
         <div>
           <dt className="text-xs uppercase text-stone-500">Open</dt>
           <dd className="mt-1 text-stone-100 group-hover:text-amberline">
-            Mixer
+            Song
           </dd>
         </div>
       </dl>

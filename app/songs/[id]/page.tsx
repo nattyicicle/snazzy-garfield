@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { SongMaterials } from "@/components/SongMaterials";
 import { StemPlayer } from "@/components/StemPlayer";
 import { getSongPlacement } from "@/lib/albums";
 import { getSongById, getSongs } from "@/lib/songs";
@@ -56,12 +57,30 @@ export default async function SongPage({ params }: SongPageProps) {
             <dd className="mt-1 text-white">{song.key ?? "TBD"}</dd>
           </div>
           <div className="rounded border border-white/10 bg-panel px-4 py-3">
-            <dt className="text-xs uppercase text-stone-500">Stems</dt>
-            <dd className="mt-1 text-white">{song.stems.length}</dd>
+            <dt className="text-xs uppercase text-stone-500">Audio</dt>
+            <dd className="mt-1 text-white">
+              {song.stems.length > 0 ? `${song.stems.length} stems` : "Reference"}
+            </dd>
           </div>
         </dl>
       </header>
-      <StemPlayer song={song} />
+      <div className="flex flex-col gap-6">
+        <SongMaterials song={song} />
+        {song.stems.length > 0 ? (
+          <StemPlayer song={song} />
+        ) : (
+          <section className="rounded-lg border border-white/10 bg-panel p-4">
+            <h2 className="text-lg font-semibold text-white">
+              No stems linked yet
+            </h2>
+            <p className="mt-2 text-sm text-stone-400">
+              This catalog entry is ready for reference audio, lyrics, and
+              charts. Add stems later and the mixer will appear here
+              automatically.
+            </p>
+          </section>
+        )}
+      </div>
     </main>
   );
 }

@@ -1,9 +1,9 @@
 import { LibraryTabs } from "@/components/LibraryTabs";
-import { PlaylistView } from "@/components/PlaylistView";
+import { SongLibrary } from "@/components/SongLibrary";
 import { getPlaylists } from "@/lib/playlists";
 import { getSongSummaries } from "@/lib/songs";
 
-export default function SongsPage() {
+export default function SongLibraryPage() {
   const songs = getSongSummaries();
   const playlists = getPlaylists();
 
@@ -14,14 +14,17 @@ export default function SongsPage() {
           Practice Player
         </p>
         <h1 className="mt-3 text-3xl font-bold text-white sm:text-4xl">
-          Setlist
+          Song library
         </h1>
       </header>
       <section className="flex flex-col gap-5">
-        <LibraryTabs active="playlist" />
-        {playlists[0] ? (
-          <PlaylistView playlist={playlists[0]} songs={songs} />
-        ) : null}
+        <LibraryTabs active="library" />
+        <SongLibrary
+          initialTab="library"
+          playlists={playlists}
+          showTabs={false}
+          songs={songs}
+        />
       </section>
     </main>
   );

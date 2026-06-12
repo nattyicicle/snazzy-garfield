@@ -1,13 +1,15 @@
-import type { Song } from "@/lib/types";
+import type { Song, SongSummary } from "@/lib/types";
 
 export type ReleaseSection = "released" | "unreleased" | "other";
 
-export type Album = {
+export type LibrarySong = Song | SongSummary;
+
+export type Album<TSong extends LibrarySong = Song> = {
   id: string;
   title: string;
   section: ReleaseSection;
   artwork?: string;
-  songs: Song[];
+  songs: TSong[];
 };
 
 const albumArtwork: Record<string, string> = {
@@ -54,8 +56,30 @@ export function prettifyPathPart(value: string | undefined) {
     .replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
-export function getSongPlacement(song: Song) {
-  const pathParts = song.stems[0]?.file.split("/").filter(Boolean) ?? [];
+export function getSongPlacement(song: LibrarySong) {
+  if (song.album) {
+    const section = song.section ?? "released";
+    const title = prettifyPathPart(song.album);
+
+    if (section === "released" || section === "unreleased") {
+      return {
+        albumId: `${section}-${slugify(title)}`,
+        albumSlug: slugify(title),
+        section,
+        title
+      };
+    }
+
+    return {
+      albumId: `other-${slugify(title)}`,
+      albumSlug: slugify(title),
+      section: "other" as const,
+      title
+    };
+  }
+
+  const pathParts =
+    "stems" in song ? song.stems[0]?.file.split("/").filter(Boolean) ?? [] : [];
   const libraryIndex = pathParts.findIndex((part) =>
     part.startsWith("song-library")
   );
@@ -79,8 +103,8 @@ export function getSongPlacement(song: Song) {
   };
 }
 
-export function getAlbums(songs: Song[]) {
-  const albums = new Map<string, Album>();
+export function getAlbums<TSong extends LibrarySong>(songs: TSong[]) {
+  const albums = new Map<string, Album<TSong>>();
 
   for (const song of songs) {
     const placement = getSongPlacement(song);

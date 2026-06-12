@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { AlbumArtwork } from "@/components/AlbumArtwork";
 import { sectionLabels } from "@/lib/albums";
-import type { Album } from "@/lib/albums";
+import type { Album, LibrarySong } from "@/lib/albums";
 
 type AlbumCardProps = {
-  album: Album;
+  album: Album<LibrarySong>;
 };
 
 export function AlbumCard({ album }: AlbumCardProps) {

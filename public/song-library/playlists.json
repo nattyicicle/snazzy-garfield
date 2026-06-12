@@ -1,0 +1,225 @@
+[
+  {
+    "id": "setlist-idea",
+    "title": "SETLIST IDEA",
+    "sourceUrl": "https://drive.google.com/drive/folders/1ebmeui-B1JY-ZJ-fbo7wBootAS_vuRQe",
+    "tracks": [
+      {
+        "position": 1,
+        "side": "A",
+        "title": "Genesis",
+        "songId": "genesis",
+        "sourceFile": "A 1 Genesis.wav",
+        "driveUrl": "https://drive.google.com/file/d/1nihb2lWEf7lFyrktKx-ngA78olee5S14/view?usp=drivesdk"
+      },
+      {
+        "position": 2,
+        "side": "A",
+        "title": "Turn the Screw",
+        "songId": "turn-the-screw",
+        "sourceFile": "A 2 Turn the Screw.wav",
+        "driveUrl": "https://drive.google.com/file/d/1-cs6qgv31GZpqx3D9OkxztEMSSZ6gWaQ/view?usp=drivesdk"
+      },
+      {
+        "position": 3,
+        "side": "A",
+        "title": "What's Done is Done",
+        "songId": "what-s-done-is-done",
+        "sourceFile": "A 3 What's Done is Done.wav",
+        "driveUrl": "https://drive.google.com/file/d/11u-U4I2UWMZzU1FhXRj-U050O-sK6SZS/view?usp=drivesdk"
+      },
+      {
+        "position": 4,
+        "side": "A",
+        "title": "Skeletal Penumbra",
+        "songId": "skeletal-penumbra",
+        "sourceFile": "A 4 Skeletal Penumbra.wav",
+        "driveUrl": "https://drive.google.com/file/d/111g8ubrmAvWWzCXpZ3rDWbKU71TWEJ6y/view?usp=drivesdk"
+      },
+      {
+        "position": 5,
+        "side": "A",
+        "title": "A Pretty Little Liar",
+        "songId": "a-pretty-little-liar",
+        "sourceFile": "A 5 A Pretty Little Liar.wav",
+        "driveUrl": "https://drive.google.com/file/d/1YcSgp3iAyFgW-z0f0Oa-6_V04AIYfP8d/view?usp=drivesdk"
+      },
+      {
+        "position": 6,
+        "side": "A",
+        "title": "Radio",
+        "songId": "radio",
+        "sourceFile": "A 6 Radio.wav",
+        "driveUrl": "https://drive.google.com/file/d/1r3tJgYdr07lE9MoaVscrct2YptU1JcMd/view?usp=drivesdk"
+      },
+      {
+        "position": 7,
+        "side": "A",
+        "title": "One Life to Live",
+        "songId": "one-life-to-live",
+        "sourceFile": "A 7 One Life to Live.wav",
+        "driveUrl": "https://drive.google.com/file/d/1fjYZI0uKo74g7kx1R6xacBAeoMAb_iwb/view?usp=drivesdk"
+      },
+      {
+        "position": 8,
+        "side": "A",
+        "title": "Wishing for the Worst",
+        "songId": "wishing-for-the-worst",
+        "sourceFile": "A 8 Wishing For the Worst.wav",
+        "driveUrl": "https://drive.google.com/file/d/1NHGXmgcckViwGJP7-MKsl2j1VvrmZJtN/view?usp=drivesdk"
+      },
+      {
+        "position": 9,
+        "side": "A",
+        "title": "Guys Like Me",
+        "songId": "guys-like-me",
+        "sourceFile": "A 9 Guys Like Me.wav",
+        "driveUrl": "https://drive.google.com/file/d/1lcQrsZy7t4oe3TTuDHjh177Lofo-DJ2b/view?usp=drivesdk"
+      },
+      {
+        "position": 10,
+        "side": "A",
+        "title": "Brother",
+        "songId": "brother",
+        "sourceFile": "A 10 Brother.wav",
+        "driveUrl": "https://drive.google.com/file/d/1tijoEX_cvFvRRK4euY0hRgLaWJrjf1Wi/view?usp=drivesdk"
+      },
+      {
+        "position": 11,
+        "side": "A",
+        "title": "Red Lipstick",
+        "songId": "red-lipstick",
+        "sourceFile": "A 11 Red Lipstick.wav",
+        "driveUrl": "https://drive.google.com/file/d/1Cvk14nVZiR13ZGZdg_WuzwkvZDX4w0Pa/view?usp=drivesdk"
+      },
+      {
+        "position": 12,
+        "side": "A",
+        "title": "Melancholy",
+        "songId": "melancholy",
+        "sourceFile": "A 12 Melancholy.wav",
+        "driveUrl": "https://drive.google.com/file/d/1Wee6M8piSbMzkLBFihdRE-W0cz5gSf_P/view?usp=drivesdk"
+      },
+      {
+        "position": 13,
+        "side": "A",
+        "title": "Boomerang",
+        "songId": "boomerang",
+        "sourceFile": "A 13 Boomerang.wav",
+        "driveUrl": "https://drive.google.com/file/d/1ye6xAzfSiKBQvdaPUxt22HUYdI2hWxXq/view?usp=drivesdk"
+      },
+      {
+        "position": 14,
+        "side": "A",
+        "title": "Believers",
+        "songId": "believers",
+        "sourceFile": "A 14 Believers.wav",
+        "driveUrl": "https://drive.google.com/file/d/1V3aAcHkPIc5XJBe0hCfSFmZgR2tPm8uw/view?usp=drivesdk"
+      },
+      {
+        "position": 1,
+        "side": "B",
+        "title": "Raindrops",
+        "songId": "raindrops",
+        "sourceFile": "B 1 Raindrops.wav",
+        "driveUrl": "https://drive.google.com/file/d/1b9LpiI6OnrJSI3EUlB-rW-DhdDaZRRBV/view?usp=drivesdk"
+      },
+      {
+        "position": 2,
+        "side": "B",
+        "title": "Mango in My Pocket",
+        "songId": "mango-in-my-pocket",
+        "sourceFile": "B 2 Mango in My Pocket.wav",
+        "driveUrl": "https://drive.google.com/file/d/1vS9Tq4tsXxmgNTXGGd1Ls0aGZ2L7xeT-/view?usp=drivesdk"
+      },
+      {
+        "position": 3,
+        "side": "B",
+        "title": "Gucci",
+        "songId": "gucci",
+        "sourceFile": "B 3 Gucci.wav",
+        "driveUrl": "https://drive.google.com/file/d/1i10bNebaxDTM96sDDs-0pMubOfNf3rnP/view?usp=drivesdk"
+      },
+      {
+        "position": 4,
+        "side": "B",
+        "title": "My New Bike",
+        "songId": "my-new-bike",
+        "sourceFile": "B 4 My New Bike.wav",
+        "driveUrl": "https://drive.google.com/file/d/17MZwUYe3LJmL16pQx_j2BtYU7So3JGG2/view?usp=drivesdk"
+      },
+      {
+        "position": 5,
+        "side": "B",
+        "title": "Are You Going to Finish that Croissant?",
+        "songId": "are-you-going-to-finish-that-croissant",
+        "sourceFile": "B 5 Are You Going to Finish that Croissant_.wav",
+        "driveUrl": "https://drive.google.com/file/d/1NBZTiYJ1M04zsU0DkEg_lyPtgPos8ZtX/view?usp=drivesdk"
+      },
+      {
+        "position": 6,
+        "side": "B",
+        "title": "Fake News",
+        "songId": "fake-news",
+        "sourceFile": "B 6 'Fake News'.wav",
+        "driveUrl": "https://drive.google.com/file/d/1BO6-SdgJQ3PvZN9vEBj7U4Uw2EskSz8o/view?usp=drivesdk"
+      },
+      {
+        "position": 7,
+        "side": "B",
+        "title": "Old Spark",
+        "songId": "old-spark",
+        "sourceFile": "B 7 Old Spark.wav",
+        "driveUrl": "https://drive.google.com/file/d/1pPB5Sh0i9-acu6Tz686ic7YhKGuXmtKr/view?usp=drivesdk"
+      },
+      {
+        "position": 8,
+        "side": "B",
+        "title": "Caravan",
+        "songId": "caravan",
+        "sourceFile": "B 8 Caravan.wav",
+        "driveUrl": "https://drive.google.com/file/d/1IyHA0_7KVLL6nHxzlPVlM60xNUumD2nn/view?usp=drivesdk"
+      },
+      {
+        "position": 9,
+        "side": "B",
+        "title": "Desert Clay",
+        "songId": "desert-clay",
+        "sourceFile": "B 9 Desert Clay.wav",
+        "driveUrl": "https://drive.google.com/file/d/1dpc0cuAHan1bgiI-Ldpk8kvnuAymx-a2/view?usp=drivesdk"
+      },
+      {
+        "position": 10,
+        "side": "B",
+        "title": "Strange Days",
+        "songId": "strange-days",
+        "sourceFile": "B 10 Strange Days.wav",
+        "driveUrl": "https://drive.google.com/file/d/1o39KyzIV9ZrF9rJ78znuk5C17Wg6xjJP/view?usp=drivesdk"
+      },
+      {
+        "position": 11,
+        "side": "B",
+        "title": "Lucid Love",
+        "songId": "lucid-love",
+        "sourceFile": "B 11 Lucid Love.wav",
+        "driveUrl": "https://drive.google.com/file/d/1-SvK85pRRSMZWXoIW6ZlVUScTSV1WYqL/view?usp=drivesdk"
+      },
+      {
+        "position": 12,
+        "side": "B",
+        "title": "Dear Djeebus",
+        "songId": "dear-djeebus",
+        "sourceFile": "B 12 Dear Djeebus.wav",
+        "driveUrl": "https://drive.google.com/file/d/1CT4bpPl7cuLUwQecaVLSXQ66peBlo_Ae/view?usp=drivesdk"
+      },
+      {
+        "position": 13,
+        "side": "B",
+        "title": "Swagatha Christie",
+        "songId": "swagatha-christie",
+        "sourceFile": "B 13 Swagatha Christie.wav",
+        "driveUrl": "https://drive.google.com/file/d/1ANF5-PpU8CDJNpURl0fKMRnFiBhjeLPk/view?usp=drivesdk"
+      }
+    ]
+  }
+]

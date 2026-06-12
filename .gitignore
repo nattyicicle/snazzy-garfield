@@ -2,6 +2,7 @@
 node_modules
 out
 *.log
+*.tsbuildinfo
 .DS_Store
 public/song-library/songs/
 public/song-library/import-failures.json

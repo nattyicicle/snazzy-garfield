@@ -1,12 +1,38 @@
-import songs from "@/public/song-library/songs.json";
-import type { Song } from "./types";
+import "server-only";
 
-const songLibrary = songs as Song[];
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import type { Song, SongSummary } from "./types";
 
-export function getSongs(): Song[] {
+const songLibraryPath = path.join(
+  process.cwd(),
+  "public",
+  "song-library",
+  "songs.json"
+);
+
+let songLibrary: Song[] | null = null;
+
+function loadSongLibrary(): Song[] {
+  if (!songLibrary) {
+    songLibrary = JSON.parse(readFileSync(songLibraryPath, "utf8")) as Song[];
+  }
+
   return songLibrary;
 }
 
+export function getSongs(): Song[] {
+  return loadSongLibrary();
+}
+
+export function getSongSummaries(): SongSummary[] {
+  return loadSongLibrary().map(({ lyrics, chordPro, stems, ...song }) => ({
+    ...song,
+    stemCount: stems.length,
+    stemTypes: [...new Set(stems.map((stem) => stem.type))]
+  }));
+}
+
 export function getSongById(id: string): Song | undefined {
-  return songLibrary.find((song) => song.id === id);
+  return loadSongLibrary().find((song) => song.id === id);
 }
