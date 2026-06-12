@@ -6,7 +6,7 @@
     "node": "22.x"
   },
   "scripts": {
-    "dev": "next dev --webpack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -15,17 +15,17 @@
     "audio:use-practice": "node scripts/use-practice-audio-manifest.mjs"
   },
   "dependencies": {
-    "next": "^16.2.7",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.28.0",
-    "eslint-config-next": "^16.2.7",
+    "eslint-config-next": "^14.2.35",
     "postcss": "^8.5.0",
     "tailwindcss": "^3.4.19",
     "typescript": "^5.8.3"

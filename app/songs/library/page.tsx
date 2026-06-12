@@ -1,11 +1,9 @@
 import { LibraryTabs } from "@/components/LibraryTabs";
 import { SongLibrary } from "@/components/SongLibrary";
-import { getPlaylists } from "@/lib/playlists";
 import { getSongSummaries } from "@/lib/songs";
 
 export default function SongLibraryPage() {
   const songs = getSongSummaries();
-  const playlists = getPlaylists();
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-5 py-8 sm:px-8">
@@ -19,12 +17,7 @@ export default function SongLibraryPage() {
       </header>
       <section className="flex flex-col gap-5">
         <LibraryTabs active="library" />
-        <SongLibrary
-          initialTab="library"
-          playlists={playlists}
-          showTabs={false}
-          songs={songs}
-        />
+        <SongLibrary songs={songs} />
       </section>
     </main>
   );

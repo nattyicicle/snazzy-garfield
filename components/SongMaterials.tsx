@@ -1,4 +1,5 @@
 import { ChordSheet } from "@/components/ChordSheet";
+import { resolveAudioSource } from "@/lib/audio";
 import type { LyricSection, Song } from "@/lib/types";
 
 type SongMaterialsProps = {
@@ -7,16 +8,6 @@ type SongMaterialsProps = {
 
 function hasLyrics(lyrics: LyricSection[] | undefined) {
   return lyrics?.some((section) => section.lines.length > 0) ?? false;
-}
-
-function resolveAudioSource(file: string) {
-  const baseUrl = process.env.NEXT_PUBLIC_AUDIO_BASE_URL?.replace(/\/+$/, "");
-
-  if (!baseUrl || /^(https?:|data:|blob:)/i.test(file)) {
-    return file;
-  }
-
-  return `${baseUrl}${file.startsWith("/") ? file : `/${file}`}`;
 }
 
 export function SongMaterials({ song }: SongMaterialsProps) {
@@ -31,24 +22,30 @@ export function SongMaterials({ song }: SongMaterialsProps) {
 
   return (
     <section className="flex flex-col gap-5">
-      {referenceAudio ? (
+      {referenceAudio || hasChordSheet ? (
         <div className="rounded-lg border border-white/10 bg-panel p-4">
-          <h2 className="text-lg font-semibold text-white">Reference mix</h2>
-          <audio
-            className="mt-4 w-full"
-            controls
-            preload="metadata"
-            src={resolveAudioSource(referenceAudio)}
-          />
-        </div>
-      ) : null}
+          {referenceAudio ? (
+            <div className={hasChordSheet ? "border-b border-white/10 pb-4" : ""}>
+              <h2 className="text-lg font-semibold text-white">
+                Reference mix
+              </h2>
+              <audio
+                className="mt-4 w-full"
+                controls
+                preload="metadata"
+                src={resolveAudioSource(referenceAudio)}
+              />
+            </div>
+          ) : null}
 
-      {hasChordSheet ? (
-        <div className="rounded-lg border border-white/10 bg-panel p-4">
-          <h2 className="mb-3 text-lg font-semibold text-white">
-            SongbookPro sheet
-          </h2>
-          <ChordSheet content={song.chordPro ?? ""} />
+          {hasChordSheet ? (
+            <div className={referenceAudio ? "pt-4" : ""}>
+              <h2 className="mb-3 text-lg font-semibold text-white">
+                SongbookPro sheet
+              </h2>
+              <ChordSheet content={song.chordPro ?? ""} />
+            </div>
+          ) : null}
         </div>
       ) : null}
 

@@ -26,11 +26,18 @@ export function getSongs(): Song[] {
 }
 
 export function getSongSummaries(): SongSummary[] {
-  return loadSongLibrary().map(({ lyrics, chordPro, stems, ...song }) => ({
-    ...song,
-    stemCount: stems.length,
-    stemTypes: [...new Set(stems.map((stem) => stem.type))]
-  }));
+  return loadSongLibrary().map(({ lyrics, chordPro, stems, ...song }) => {
+    const referenceAudio = song.referenceAudio ?? song.master;
+
+    return {
+      ...song,
+      hasChordSheet: Boolean(chordPro?.trim()),
+      hasLyrics: lyrics?.some((section) => section.lines.length > 0) ?? false,
+      hasReferenceAudio: Boolean(referenceAudio),
+      stemCount: stems.length,
+      stemTypes: [...new Set(stems.map((stem) => stem.type))]
+    };
+  });
 }
 
 export function getSongById(id: string): Song | undefined {

@@ -39,6 +39,9 @@ export type Song = {
 };
 
 export type SongSummary = Omit<Song, "lyrics" | "chordPro" | "stems"> & {
+  hasChordSheet: boolean;
+  hasLyrics: boolean;
+  hasReferenceAudio: boolean;
   stemCount: number;
   stemTypes: StemType[];
 };
