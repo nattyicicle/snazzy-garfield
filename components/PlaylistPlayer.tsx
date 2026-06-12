@@ -150,7 +150,7 @@ export function PlaylistPlayer({ tracks }: PlaylistPlayerProps) {
               Now playing
             </p>
             <h3 className="mt-1 text-xl font-semibold text-white sm:text-2xl">
-              {selectedTrack?.title ?? "No reference mix selected"}
+              {selectedTrack?.title ?? "No song selected"}
             </h3>
             {selectedTrack ? (
               <p className="mt-2 text-sm text-stone-400">
@@ -243,7 +243,7 @@ export function PlaylistPlayer({ tracks }: PlaylistPlayerProps) {
                           <MaterialIcon label="Lyrics" symbol="¶" />
                         ) : null}
                         <MaterialIcon
-                          label={track.hasMixer ? "Mixer" : "Reference mix"}
+                          label={track.hasMixer ? "Mixer" : "Audio"}
                           symbol={track.hasMixer ? "≋" : "♪"}
                         />
                         <Link
@@ -258,7 +258,7 @@ export function PlaylistPlayer({ tracks }: PlaylistPlayerProps) {
                     </div>
                     {!track.source ? (
                       <span className="text-xs text-stone-500">
-                        No reference mix linked yet.
+                        No audio linked yet.
                       </span>
                     ) : null}
                   </div>

@@ -27,7 +27,7 @@ export function SongMaterials({ song }: SongMaterialsProps) {
           {referenceAudio ? (
             <div className={hasChordSheet ? "border-b border-white/10 pb-4" : ""}>
               <h2 className="text-lg font-semibold text-white">
-                Reference mix
+                Audio
               </h2>
               <audio
                 className="mt-4 w-full"

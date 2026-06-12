@@ -11,6 +11,7 @@
     "start": "next start",
     "lint": "next lint",
     "songs:import-materials": "node scripts/import-song-materials.mjs",
+    "audio:convert-setlist": "node scripts/convert-setlist-references.mjs",
     "audio:convert": "node scripts/convert-practice-audio.mjs",
     "audio:use-practice": "node scripts/use-practice-audio-manifest.mjs"
   },

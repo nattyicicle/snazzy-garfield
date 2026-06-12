@@ -1718,8 +1718,8 @@
     "bpm": 101,
     "key": "D",
     "time": null,
-    "master": "/song-library-references/you-and-your-hoes/a-pretty-little-liar.wav",
-    "referenceAudio": "/song-library-references/you-and-your-hoes/a-pretty-little-liar.wav",
+    "master": "/song-library-references/setlist-idea/a-05-a-pretty-little-liar.mp3",
+    "referenceAudio": "/song-library-references/setlist-idea/a-05-a-pretty-little-liar.mp3",
     "lyrics": [
       {
         "label": "Verse: Slow",
@@ -2282,7 +2282,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 103,
     "key": "A♭",
-    "master": "/song-library-references/you-and-your-hoes/one-life-to-live.wav",
+    "master": "/song-library-references/setlist-idea/a-07-one-life-to-live.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -2330,7 +2330,7 @@
     "album": "\"you and your hoes\"",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/you-and-your-hoes/one-life-to-live.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-07-one-life-to-live.mp3",
     "lyrics": [
       {
         "label": "Verse 1",
@@ -2570,7 +2570,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 125,
     "key": "Dm",
-    "master": "/song-library-references/you-and-your-hoes/red-lipstick.wav",
+    "master": "/song-library-references/setlist-idea/a-11-red-lipstick.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -2624,7 +2624,7 @@
     "album": "\"you and your hoes\"",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/you-and-your-hoes/red-lipstick.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-11-red-lipstick.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -2917,8 +2917,8 @@
     "bpm": 86,
     "key": "B",
     "time": null,
-    "master": "/song-library-references/you-and-your-hoes/wishing-for-the-worst.wav",
-    "referenceAudio": "/song-library-references/you-and-your-hoes/wishing-for-the-worst.wav",
+    "master": "/song-library-references/setlist-idea/a-08-wishing-for-the-worst.mp3",
+    "referenceAudio": "/song-library-references/setlist-idea/a-08-wishing-for-the-worst.mp3",
     "lyrics": [
       {
         "label": "Verse",
@@ -4010,7 +4010,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 80,
     "key": "D",
-    "master": "/song-library-references/aitistic/genesis.wav",
+    "master": "/song-library-references/setlist-idea/a-01-genesis.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -4052,7 +4052,7 @@
     "album": "aitistic",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/aitistic/genesis.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-01-genesis.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -4355,7 +4355,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 100,
     "key": "B♭",
-    "master": "/song-library-references/aitistic/turn-the-screw.wav",
+    "master": "/song-library-references/setlist-idea/a-02-turn-the-screw.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -4409,7 +4409,7 @@
     "album": "aitistic",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/aitistic/turn-the-screw.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-02-turn-the-screw.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -6516,7 +6516,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 90,
     "key": "Em",
-    "master": "/song-library-references/tangerines-and-daffodil/are-you-going-to-finish-that-croissant.wav",
+    "master": "/song-library-references/setlist-idea/b-05-are-you-going-to-finish-that-croissant.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -6570,7 +6570,7 @@
     "album": "Tangerines & Daffodil",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/tangerines-and-daffodil/are-you-going-to-finish-that-croissant.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-05-are-you-going-to-finish-that-croissant.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -6680,8 +6680,8 @@
     "bpm": 128,
     "key": "Am",
     "time": null,
-    "master": "/song-library-references/tangerines-and-daffodil/dear-djeebus.wav",
-    "referenceAudio": "/song-library-references/tangerines-and-daffodil/dear-djeebus.wav",
+    "master": "/song-library-references/setlist-idea/b-12-dear-djeebus.mp3",
+    "referenceAudio": "/song-library-references/setlist-idea/b-12-dear-djeebus.mp3",
     "lyrics": [
       {
         "label": "Verse",
@@ -6792,7 +6792,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 86,
     "key": "Em",
-    "master": "/song-library-references/tangerines-and-daffodil/desert-clay.wav",
+    "master": "/song-library-references/setlist-idea/b-09-desert-clay.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -6846,7 +6846,7 @@
     "album": "Tangerines & Daffodil",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/tangerines-and-daffodil/desert-clay.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-09-desert-clay.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -6951,8 +6951,8 @@
     "bpm": 95,
     "key": "E",
     "time": null,
-    "master": "/song-library-references/tangerines-and-daffodil/lucid-love.wav",
-    "referenceAudio": "/song-library-references/tangerines-and-daffodil/lucid-love.wav",
+    "master": "/song-library-references/setlist-idea/b-11-lucid-love.mp3",
+    "referenceAudio": "/song-library-references/setlist-idea/b-11-lucid-love.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -7022,7 +7022,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 91,
     "key": "Em",
-    "master": "/song-library-references/tangerines-and-daffodil/my-new-bike.wav",
+    "master": "/song-library-references/setlist-idea/b-04-my-new-bike.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -7076,7 +7076,7 @@
     "album": "Tangerines & Daffodil",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/tangerines-and-daffodil/my-new-bike.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-04-my-new-bike.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -7127,7 +7127,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 83,
     "key": "Em",
-    "master": "/song-library-references/tangerines-and-daffodil/old-spark.wav",
+    "master": "/song-library-references/setlist-idea/b-07-old-spark.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -7169,7 +7169,7 @@
     "album": "Tangerines & Daffodil",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/tangerines-and-daffodil/old-spark.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-07-old-spark.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -7226,7 +7226,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 146,
     "key": "Dm",
-    "master": "/song-library-references/tangerines-and-daffodil/strange-days.wav",
+    "master": "/song-library-references/setlist-idea/b-10-strange-days.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -7280,7 +7280,7 @@
     "album": "Tangerines & Daffodil",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/tangerines-and-daffodil/strange-days.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-10-strange-days.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -7314,7 +7314,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 91,
     "key": "A",
-    "master": "/song-library-references/tangerines-and-daffodil/swagatha-christie.wav",
+    "master": "/song-library-references/setlist-idea/b-13-swagatha-christie.mp3",
     "stems": [
       {
         "id": "swagatha-christia-91-bpm-a-20260220",
@@ -7350,7 +7350,7 @@
     "album": "Tangerines & Daffodil",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/tangerines-and-daffodil/swagatha-christie.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-13-swagatha-christie.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -7801,7 +7801,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 86,
     "key": "F#",
-    "master": "/song-library-references/the-dog-in-me/brother.wav",
+    "master": "/song-library-references/setlist-idea/a-10-brother.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -7861,7 +7861,7 @@
     "album": "the dog in me",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/the-dog-in-me/brother.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-10-brother.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -8064,7 +8064,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 88,
     "key": "E",
-    "master": "/song-library-references/the-dog-in-me/guys-like-me.wav",
+    "master": "/song-library-references/setlist-idea/a-09-guys-like-me.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -8112,7 +8112,7 @@
     "album": "the dog in me",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/the-dog-in-me/guys-like-me.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-09-guys-like-me.mp3",
     "lyrics": [
       {
         "label": "Verse 1",
@@ -8416,7 +8416,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 150,
     "key": "C#",
-    "master": "/song-library-references/the-dog-in-me/radio.wav",
+    "master": "/song-library-references/setlist-idea/a-06-radio.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -8464,7 +8464,7 @@
     "album": "the dog in me",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/the-dog-in-me/radio.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-06-radio.mp3",
     "lyrics": [
       {
         "label": "Chorus",
@@ -8553,7 +8553,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 85,
     "key": "F",
-    "master": "/song-library-references/the-dog-in-me/skeletal-penumbra.wav",
+    "master": "/song-library-references/setlist-idea/a-04-skeletal-penumbra.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -8613,7 +8613,7 @@
     "album": "the dog in me",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/the-dog-in-me/skeletal-penumbra.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-04-skeletal-penumbra.mp3",
     "lyrics": [
       {
         "label": "Verse 1",
@@ -8824,7 +8824,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 86,
     "key": "Am",
-    "master": "/song-library-references/the-dog-in-me/what-s-done-is-done.wav",
+    "master": "/song-library-references/setlist-idea/a-03-what-s-done-is-done.mp3",
     "stems": [
       {
         "id": "what-s-done-is-done-remix-backing-vocals",
@@ -8884,7 +8884,7 @@
     "album": "the dog in me",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/the-dog-in-me/what-s-done-is-done.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-03-what-s-done-is-done.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -9364,7 +9364,7 @@
     "artist": "Snazzy Garfield",
     "bpm": null,
     "key": "G",
-    "master": "/song-library-references/unreleased/gucci.wav",
+    "master": "/song-library-references/setlist-idea/b-03-gucci.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -9406,7 +9406,7 @@
     "album": "Unreleased",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/unreleased/gucci.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-03-gucci.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -9737,7 +9737,7 @@
     "artist": "Snazzy Garfield",
     "bpm": null,
     "key": null,
-    "master": "/song-library-references/unreleased/mango-in-my-pocket.wav",
+    "master": "/song-library-references/setlist-idea/b-02-mango-in-my-pocket.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -9791,7 +9791,7 @@
     "album": "Unreleased",
     "section": "released",
     "time": "3:16",
-    "referenceAudio": "/song-library-references/unreleased/mango-in-my-pocket.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-02-mango-in-my-pocket.mp3",
     "lyrics": [
       {
         "label": "Intro",
@@ -10028,7 +10028,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 82,
     "key": "C",
-    "master": "/song-library-references/unreleased-singles/fake-news.wav",
+    "master": "/song-library-references/setlist-idea/b-06-fake-news.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -10082,7 +10082,7 @@
     "album": "unreleased singles",
     "section": "released",
     "time": "3:46",
-    "referenceAudio": "/song-library-references/unreleased-singles/fake-news.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-06-fake-news.mp3",
     "lyrics": [
       {
         "label": "Verse 1",
@@ -10641,7 +10641,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 95,
     "key": "G",
-    "master": "/song-library-references/villain/believers.wav",
+    "master": "/song-library-references/setlist-idea/a-14-believers.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -10695,7 +10695,7 @@
     "album": "villain",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/villain/believers.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-14-believers.mp3",
     "lyrics": [
       {
         "label": "Verse",
@@ -10934,7 +10934,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 87,
     "key": "Am",
-    "master": "/song-library-references/villain/caravan.wav",
+    "master": "/song-library-references/setlist-idea/b-08-caravan.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -10988,7 +10988,7 @@
     "album": "villain",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/villain/caravan.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/b-08-caravan.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -11570,7 +11570,7 @@
     "artist": "Snazzy Garfield",
     "bpm": 70,
     "key": "Bm",
-    "master": "/song-library-references/villain/melancholy.wav",
+    "master": "/song-library-references/setlist-idea/a-12-melancholy.mp3",
     "stems": [
       {
         "id": "lead-vocals",
@@ -11624,7 +11624,7 @@
     "album": "villain",
     "section": "released",
     "time": null,
-    "referenceAudio": "/song-library-references/villain/melancholy.wav",
+    "referenceAudio": "/song-library-references/setlist-idea/a-12-melancholy.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
@@ -11973,8 +11973,8 @@
     "bpm": 86,
     "key": "G",
     "time": null,
-    "master": "/song-library-references/whimsical-irreverence/boomerang.wav",
-    "referenceAudio": "/song-library-references/whimsical-irreverence/boomerang.wav",
+    "master": "/song-library-references/setlist-idea/a-13-boomerang.mp3",
+    "referenceAudio": "/song-library-references/setlist-idea/a-13-boomerang.mp3",
     "lyrics": [
       {
         "label": "Verse:",
@@ -12574,8 +12574,8 @@
     "bpm": 125,
     "key": "A",
     "time": null,
-    "master": "/song-library-references/whimsical-irreverence/raindrops.wav",
-    "referenceAudio": "/song-library-references/whimsical-irreverence/raindrops.wav",
+    "master": "/song-library-references/setlist-idea/b-01-raindrops.mp3",
+    "referenceAudio": "/song-library-references/setlist-idea/b-01-raindrops.mp3",
     "lyrics": [
       {
         "label": "Lyrics",
